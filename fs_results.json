@@ -1,0 +1,2316 @@
+{
+  "simulation_period": {
+    "start_date": "2024-05-15",
+    "end_date": "2027-05-15",
+    "time_step": "monthly"
+  },
+  "systemic_risk": {
+    "time_series": [
+      {
+        "date": "2024-05-15",
+        "sri": 0.3488051811360355,
+        "components": {
+          "vulnerability": 0.4392348424807258,
+          "concentration": 0.07336324565098379,
+          "interconnectedness": 0.23795918367346938,
+          "credit_growth": 0.8,
+          "asset_price_bubble": 0.1,
+          "liquidity_risk": 0.4422738150110335
+        }
+      },
+      {
+        "date": "2024-06-14",
+        "sri": 0.34852077385326163,
+        "components": {
+          "vulnerability": 0.43658209161518013,
+          "concentration": 0.07336324565098373,
+          "interconnectedness": 0.23795918367346938,
+          "credit_growth": 0.8008482993988454,
+          "asset_price_bubble": 0.09989904779357542,
+          "liquidity_risk": 0.4424727749875157
+        }
+      },
+      {
+        "date": "2024-07-14",
+        "sri": 0.3481071747231474,
+        "components": {
+          "vulnerability": 0.43377721389425294,
+          "concentration": 0.07336324565098375,
+          "interconnectedness": 0.23795918367346938,
+          "credit_growth": 0.8009241794619846,
+          "asset_price_bubble": 0.09996556320677574,
+          "liquidity_risk": 0.4426536624514179
+        }
+      },
+      {
+        "date": "2024-08-13",
+        "sri": 0.34769750268425476,
+        "components": {
+          "vulnerability": 0.4311231553804567,
+          "concentration": 0.0733632456509838,
+          "interconnectedness": 0.23795918367346938,
+          "credit_growth": 0.8009298681183518,
+          "asset_price_bubble": 0.09995948972240552,
+          "liquidity_risk": 0.4428500735598612
+        }
+      },
+      {
+        "date": "2024-09-12",
+        "sri": 0.3475055927475344,
+        "components": {
+          "vulnerability": 0.42836939798229023,
+          "concentration": 0.07336324565098365,
+          "interconnectedness": 0.23795918367346938,
+          "credit_growth": 0.8024453868641563,
+          "asset_price_bubble": 0.09986318184095436,
+          "liquidity_risk": 0.44303316047335284
+        }
+      },
+      {
+        "date": "2024-10-12",
+        "sri": 0.3467425928616871,
+        "components": {
+          "vulnerability": 0.42556832033116665,
+          "concentration": 0.07336324565098375,
+          "interconnectedness": 0.23795918367346938,
+          "credit_growth": 0.8006299344366952,
+          "asset_price_bubble": 0.09972781713331096,
+          "liquidity_risk": 0.4432070559444966
+        }
+      },
+      {
+        "date": "2024-11-11",
+        "sri": 0.3462258208252203,
+        "components": {
+          "vulnerability": 0.4229399384742403,
+          "concentration": 0.07336324565098375,
+          "interconnectedness": 0.23795918367346938,
+          "credit_growth": 0.7999670321540121,
+          "asset_price_bubble": 0.09972900938473073,
+          "liquidity_risk": 0.44339651561388566
+        }
+      },
+      {
+        "date": "2024-12-11",
+        "sri": 0.34595615657200546,
+        "components": {
+          "vulnerability": 0.4207235946475145,
+          "concentration": 0.0733632456509838,
+          "interconnectedness": 0.23795918367346938,
+          "credit_growth": 0.8001929415424969,
+          "asset_price_bubble": 0.09987479289308789,
+          "liquidity_risk": 0.44362318102448
+        }
+      },
+      {
+        "date": "2025-01-10",
+        "sri": 0.3458005097754749,
+        "components": {
+          "vulnerability": 0.4182442455498368,
+          "concentration": 0.07336324565098376,
+          "interconnectedness": 0.23795918367346938,
+          "credit_growth": 0.8014732969661221,
+          "asset_price_bubble": 0.09994259350575535,
+          "liquidity_risk": 0.44382049330668194
+        }
+      },
+      {
+        "date": "2025-02-09",
+        "sri": 0.3452211825168589,
+        "components": {
+          "vulnerability": 0.4157908580338582,
+          "concentration": 0.07336324565098372,
+          "interconnectedness": 0.23795918367346938,
+          "credit_growth": 0.8003006661190661,
+          "asset_price_bubble": 0.09989422458775188,
+          "liquidity_risk": 0.44401891703602414
+        }
+      },
+      {
+        "date": "2025-03-11",
+        "sri": 0.34487083618683156,
+        "components": {
+          "vulnerability": 0.41348747239038575,
+          "concentration": 0.07336324565098365,
+          "interconnectedness": 0.23795918367346938,
+          "credit_growth": 0.8003239574553949,
+          "asset_price_bubble": 0.09985988587296989,
+          "liquidity_risk": 0.44423127207778634
+        }
+      },
+      {
+        "date": "2025-04-10",
+        "sri": 0.34442582557104023,
+        "components": {
+          "vulnerability": 0.41100769045969116,
+          "concentration": 0.07336324565098383,
+          "interconnectedness": 0.23795918367346938,
+          "credit_growth": 0.7998259927808234,
+          "asset_price_bubble": 0.0999724899300197,
+          "liquidity_risk": 0.44442635093125404
+        }
+      },
+      {
+        "date": "2025-05-10",
+        "sri": 0.35525859060472165,
+        "components": {
+          "vulnerability": 0.4803889559597952,
+          "concentration": 0.07336324565098383,
+          "interconnectedness": 0.23795918367346938,
+          "credit_growth": 0.7986676925876998,
+          "asset_price_bubble": 0.0900584577511822,
+          "liquidity_risk": 0.45111400800519946
+        }
+      },
+      {
+        "date": "2025-06-09",
+        "sri": 0.3664130788645716,
+        "components": {
+          "vulnerability": 0.549249263215929,
+          "concentration": 0.07336324565098379,
+          "interconnectedness": 0.23795918367346938,
+          "credit_growth": 0.7992491564764069,
+          "asset_price_bubble": 0.08096197304894427,
+          "liquidity_risk": 0.45769565112169586
+        }
+      },
+      {
+        "date": "2025-07-09",
+        "sri": 0.37828138849377985,
+        "components": {
+          "vulnerability": 0.6233461594044334,
+          "concentration": 0.0733632456509838,
+          "interconnectedness": 0.23795918367346938,
+          "credit_growth": 0.7979615301748639,
+          "asset_price_bubble": 0.0728375446286942,
+          "liquidity_risk": 0.4642206674302342
+        }
+      },
+      {
+        "date": "2025-08-08",
+        "sri": 0.3827030296751373,
+        "components": {
+          "vulnerability": 0.6552698951154725,
+          "concentration": 0.07343861538806272,
+          "interconnectedness": 0.23795918367346938,
+          "credit_growth": 0.7963805850356203,
+          "asset_price_bubble": 0.06559226075291646,
+          "liquidity_risk": 0.4675776380852827
+        }
+      },
+      {
+        "date": "2025-09-07",
+        "sri": 0.3827095234136559,
+        "components": {
+          "vulnerability": 0.6550393712797264,
+          "concentration": 0.07348061660478072,
+          "interconnectedness": 0.23795918367346938,
+          "credit_growth": 0.7966002297230013,
+          "asset_price_bubble": 0.065613598855515,
+          "liquidity_risk": 0.46756414034544247
+        }
+      },
+      {
+        "date": "2025-10-07",
+        "sri": 0.38258969466118153,
+        "components": {
+          "vulnerability": 0.6546410860663877,
+          "concentration": 0.07352272040989832,
+          "interconnectedness": 0.23795918367346938,
+          "credit_growth": 0.796282090998939,
+          "asset_price_bubble": 0.06560238913610542,
+          "liquidity_risk": 0.4675306976822891
+        }
+      },
+      {
+        "date": "2025-11-06",
+        "sri": 0.38266020517033095,
+        "components": {
+          "vulnerability": 0.6543639671944443,
+          "concentration": 0.07356500813614046,
+          "interconnectedness": 0.23795918367346938,
+          "credit_growth": 0.7969402823161098,
+          "asset_price_bubble": 0.06561793247038111,
+          "liquidity_risk": 0.4675148572314409
+        }
+      },
+      {
+        "date": "2025-12-06",
+        "sri": 0.38254468514612733,
+        "components": {
+          "vulnerability": 0.6541414302376348,
+          "concentration": 0.07360744379808962,
+          "interconnectedness": 0.23795918367346938,
+          "credit_growth": 0.7964453213036249,
+          "asset_price_bubble": 0.065605648402831,
+          "liquidity_risk": 0.4675090834611146
+        }
+      },
+      {
+        "date": "2026-01-05",
+        "sri": 0.3824857572607338,
+        "components": {
+          "vulnerability": 0.6536905721392624,
+          "concentration": 0.07364986315093597,
+          "interconnectedness": 0.23795918367346938,
+          "credit_growth": 0.7965830427115794,
+          "asset_price_bubble": 0.06556001551176723,
+          "liquidity_risk": 0.46747186637738847
+        }
+      },
+      {
+        "date": "2026-02-04",
+        "sri": 0.3824586502216052,
+        "components": {
+          "vulnerability": 0.6533500145196709,
+          "concentration": 0.07369235050006262,
+          "interconnectedness": 0.23795918367346938,
+          "credit_growth": 0.7968385998410272,
+          "asset_price_bubble": 0.06545782407270079,
+          "liquidity_risk": 0.4674539287227002
+        }
+      },
+      {
+        "date": "2026-03-06",
+        "sri": 0.38233052143026064,
+        "components": {
+          "vulnerability": 0.6529714066515702,
+          "concentration": 0.07373490996605114,
+          "interconnectedness": 0.23795918367346938,
+          "credit_growth": 0.7964096739974599,
+          "asset_price_bubble": 0.06547356447119819,
+          "liquidity_risk": 0.467434389821815
+        }
+      },
+      {
+        "date": "2026-04-05",
+        "sri": 0.38245729576453374,
+        "components": {
+          "vulnerability": 0.6525923734173295,
+          "concentration": 0.07377755977142535,
+          "interconnectedness": 0.23795918367346938,
+          "credit_growth": 0.79753799695698,
+          "asset_price_bubble": 0.0654603955391727,
+          "liquidity_risk": 0.46741626522882557
+        }
+      },
+      {
+        "date": "2026-05-05",
+        "sri": 0.38239075631882646,
+        "components": {
+          "vulnerability": 0.6521483260390711,
+          "concentration": 0.07382031199780589,
+          "interconnectedness": 0.23795918367346938,
+          "credit_growth": 0.7975678478077319,
+          "asset_price_bubble": 0.06545944184861018,
+          "liquidity_risk": 0.46738942654627025
+        }
+      },
+      {
+        "date": "2026-06-04",
+        "sri": 0.38196960628003307,
+        "components": {
+          "vulnerability": 0.6516702128803786,
+          "concentration": 0.07386310243448767,
+          "interconnectedness": 0.23795918367346938,
+          "credit_growth": 0.7954940147677401,
+          "asset_price_bubble": 0.06547366026564486,
+          "liquidity_risk": 0.46735746365847786
+        }
+      },
+      {
+        "date": "2026-07-04",
+        "sri": 0.38207075875974156,
+        "components": {
+          "vulnerability": 0.6512121279412166,
+          "concentration": 0.07390596080073017,
+          "interconnectedness": 0.23795918367346938,
+          "credit_growth": 0.7965423998786271,
+          "asset_price_bubble": 0.06547584854429814,
+          "liquidity_risk": 0.4673290317201078
+        }
+      },
+      {
+        "date": "2026-08-03",
+        "sri": 0.3818531313511669,
+        "components": {
+          "vulnerability": 0.6508171446443868,
+          "concentration": 0.07394887643206885,
+          "interconnectedness": 0.23795918367346938,
+          "credit_growth": 0.7957430722272315,
+          "asset_price_bubble": 0.06533614501418744,
+          "liquidity_risk": 0.4673143661156577
+        }
+      },
+      {
+        "date": "2026-09-02",
+        "sri": 0.3816875395596258,
+        "components": {
+          "vulnerability": 0.650390115474398,
+          "concentration": 0.07399197376405349,
+          "interconnectedness": 0.23795918367346938,
+          "credit_growth": 0.7951204584387852,
+          "asset_price_bubble": 0.06536916821861034,
+          "liquidity_risk": 0.46729433778843854
+        }
+      },
+      {
+        "date": "2026-10-02",
+        "sri": 0.38155935870859264,
+        "components": {
+          "vulnerability": 0.649938604660789,
+          "concentration": 0.07403508328236034,
+          "interconnectedness": 0.23795918367346938,
+          "credit_growth": 0.7946719607270005,
+          "asset_price_bubble": 0.06548087628769247,
+          "liquidity_risk": 0.4672704436202443
+        }
+      },
+      {
+        "date": "2026-11-01",
+        "sri": 0.3817477439410053,
+        "components": {
+          "vulnerability": 0.6495619240554741,
+          "concentration": 0.07407829848093969,
+          "interconnectedness": 0.23795918367346938,
+          "credit_growth": 0.7961684759835026,
+          "asset_price_bubble": 0.06545895172862855,
+          "liquidity_risk": 0.46725962972401747
+        }
+      },
+      {
+        "date": "2026-12-01",
+        "sri": 0.3816411329491273,
+        "components": {
+          "vulnerability": 0.6491288004741554,
+          "concentration": 0.07412163879348353,
+          "interconnectedness": 0.23795918367346938,
+          "credit_growth": 0.7959854399766716,
+          "asset_price_bubble": 0.06541240945856287,
+          "liquidity_risk": 0.46723932531842094
+        }
+      },
+      {
+        "date": "2026-12-31",
+        "sri": 0.38146710061547645,
+        "components": {
+          "vulnerability": 0.6487835301441918,
+          "concentration": 0.07416501091815003,
+          "interconnectedness": 0.23795918367346938,
+          "credit_growth": 0.7952236576275421,
+          "asset_price_bubble": 0.06543680892732243,
+          "liquidity_risk": 0.4672344124021832
+        }
+      },
+      {
+        "date": "2027-01-30",
+        "sri": 0.38136848202797574,
+        "components": {
+          "vulnerability": 0.6483437156632925,
+          "concentration": 0.07420839940949309,
+          "interconnectedness": 0.23795918367346938,
+          "credit_growth": 0.7949724812766219,
+          "asset_price_bubble": 0.0655135329064654,
+          "liquidity_risk": 0.4672135792385126
+        }
+      },
+      {
+        "date": "2027-03-01",
+        "sri": 0.381251169777796,
+        "components": {
+          "vulnerability": 0.6478787284353215,
+          "concentration": 0.07425191046158132,
+          "interconnectedness": 0.23795918367346938,
+          "credit_growth": 0.7947614082491349,
+          "asset_price_bubble": 0.06546714637420462,
+          "liquidity_risk": 0.4671886414730642
+        }
+      },
+      {
+        "date": "2027-03-31",
+        "sri": 0.38103160541337067,
+        "components": {
+          "vulnerability": 0.6474997533923417,
+          "concentration": 0.07429544507491256,
+          "interconnectedness": 0.23795918367346938,
+          "credit_growth": 0.7937394438584411,
+          "asset_price_bubble": 0.06551701250941354,
+          "liquidity_risk": 0.46717879397164563
+        }
+      },
+      {
+        "date": "2027-04-30",
+        "sri": 0.3811482030793023,
+        "components": {
+          "vulnerability": 0.6470703970037929,
+          "concentration": 0.07433911011934578,
+          "interconnectedness": 0.23795918367346938,
+          "credit_growth": 0.7947903241740001,
+          "asset_price_bubble": 0.06556971236292498,
+          "liquidity_risk": 0.4671604911422804
+        }
+      }
+    ],
+    "current": 0.3811482030793023,
+    "trend": 0.0008984172762018563
+  },
+  "macro_variables": {
+    "time_series": [
+      {
+        "date": "2024-05-15",
+        "gdp_growth": 3.0,
+        "inflation": 2.5,
+        "unemployment": 5.0,
+        "asset_prices": 100.0,
+        "credit_to_gdp": 80.0,
+        "housing_price_index": 100.0,
+        "stock_market_index": 1000.0
+      },
+      {
+        "date": "2024-06-14",
+        "gdp_growth": 3.0001981696072244,
+        "inflation": 2.5019010128413175,
+        "unemployment": 5.0005155065746445,
+        "asset_prices": 99.89904779357542,
+        "credit_to_gdp": 80.08482993988454,
+        "housing_price_index": 99.94837531835056,
+        "stock_market_index": 998.8924703158624
+      },
+      {
+        "date": "2024-07-14",
+        "gdp_growth": 2.9996280476756447,
+        "inflation": 2.4966419605288364,
+        "unemployment": 4.995538233153916,
+        "asset_prices": 99.96556320677574,
+        "credit_to_gdp": 80.09241794619845,
+        "housing_price_index": 100.05999604232485,
+        "stock_market_index": 997.4258577106285
+      },
+      {
+        "date": "2024-08-13",
+        "gdp_growth": 3.003042819698841,
+        "inflation": 2.498233066083756,
+        "unemployment": 4.995257124157628,
+        "asset_prices": 99.95948972240552,
+        "credit_to_gdp": 80.09298681183517,
+        "housing_price_index": 100.09144134591138,
+        "stock_market_index": 998.417269373899
+      },
+      {
+        "date": "2024-09-12",
+        "gdp_growth": 3.0075953352059206,
+        "inflation": 2.499541199943883,
+        "unemployment": 4.990889095330648,
+        "asset_prices": 99.86318184095435,
+        "credit_to_gdp": 80.24453868641564,
+        "housing_price_index": 100.00279265436879,
+        "stock_market_index": 1000.36943698414
+      },
+      {
+        "date": "2024-10-12",
+        "gdp_growth": 3.004295277861862,
+        "inflation": 2.5005144284930605,
+        "unemployment": 4.983750086552944,
+        "asset_prices": 99.72781713331095,
+        "credit_to_gdp": 80.06299344366951,
+        "housing_price_index": 100.00222442077931,
+        "stock_market_index": 999.7990746535974
+      },
+      {
+        "date": "2024-11-11",
+        "gdp_growth": 3.0072526142818616,
+        "inflation": 2.499706789106723,
+        "unemployment": 4.981323008051649,
+        "asset_prices": 99.72900938473073,
+        "credit_to_gdp": 79.99670321540121,
+        "housing_price_index": 99.93147916605463,
+        "stock_market_index": 999.0224044653386
+      },
+      {
+        "date": "2024-12-11",
+        "gdp_growth": 3.0079893735360232,
+        "inflation": 2.500075888149043,
+        "unemployment": 4.990207150139424,
+        "asset_prices": 99.87479289308789,
+        "credit_to_gdp": 80.01929415424969,
+        "housing_price_index": 99.83112863733717,
+        "stock_market_index": 999.6899015772932
+      },
+      {
+        "date": "2025-01-10",
+        "gdp_growth": 3.00618256507278,
+        "inflation": 2.501032450471455,
+        "unemployment": 4.990176600071063,
+        "asset_prices": 99.94259350575535,
+        "credit_to_gdp": 80.14732969661222,
+        "housing_price_index": 99.90622985798694,
+        "stock_market_index": 1000.4101572327158
+      },
+      {
+        "date": "2025-02-09",
+        "gdp_growth": 3.007409388603027,
+        "inflation": 2.502179584473585,
+        "unemployment": 4.990474913997891,
+        "asset_prices": 99.89422458775188,
+        "credit_to_gdp": 80.03006661190662,
+        "housing_price_index": 99.99430543982301,
+        "stock_market_index": 1000.5731190172393
+      },
+      {
+        "date": "2025-03-11",
+        "gdp_growth": 3.0127425830037837,
+        "inflation": 2.5021109646421658,
+        "unemployment": 4.994970669828145,
+        "asset_prices": 99.85988587296988,
+        "credit_to_gdp": 80.03239574553949,
+        "housing_price_index": 99.95630222339749,
+        "stock_market_index": 1000.7270697275784
+      },
+      {
+        "date": "2025-04-10",
+        "gdp_growth": 3.0128879870396696,
+        "inflation": 2.5027077459055342,
+        "unemployment": 4.994210494521743,
+        "asset_prices": 99.97248993001969,
+        "credit_to_gdp": 79.98259927808235,
+        "housing_price_index": 99.90237350056408,
+        "stock_market_index": 1000.2754010405567
+      },
+      {
+        "date": "2025-05-10",
+        "gdp_growth": 0.014145875470990443,
+        "inflation": 2.504200347835562,
+        "unemployment": 6.9907667604475225,
+        "asset_prices": 90.05845775118219,
+        "credit_to_gdp": 79.86676925876998,
+        "housing_price_index": 99.83001657686303,
+        "stock_market_index": 999.9763983145584
+      },
+      {
+        "date": "2025-06-09",
+        "gdp_growth": -2.9858540751911913,
+        "inflation": 2.5022564958445126,
+        "unemployment": 8.977577113945715,
+        "asset_prices": 80.96197304894427,
+        "credit_to_gdp": 79.92491564764069,
+        "housing_price_index": 99.84302111567052,
+        "stock_market_index": 1000.7891245852289
+      },
+      {
+        "date": "2025-07-09",
+        "gdp_growth": -5.982047736806445,
+        "inflation": 2.505305309887558,
+        "unemployment": 10.969634932485652,
+        "asset_prices": 72.8375446286942,
+        "credit_to_gdp": 79.79615301748639,
+        "housing_price_index": 99.97024023921523,
+        "stock_market_index": 997.5260849890932
+      },
+      {
+        "date": "2025-08-08",
+        "gdp_growth": -8.979778268275291,
+        "inflation": 2.505158201119595,
+        "unemployment": 12.963095912274461,
+        "asset_prices": 65.59226075291646,
+        "credit_to_gdp": 79.63805850356202,
+        "housing_price_index": 99.98326737022053,
+        "stock_market_index": 997.9423333373223
+      },
+      {
+        "date": "2025-09-07",
+        "gdp_growth": -8.98189598990384,
+        "inflation": 2.504238782889626,
+        "unemployment": 12.974298484313664,
+        "asset_prices": 65.61359885551501,
+        "credit_to_gdp": 79.66002297230013,
+        "housing_price_index": 99.85884146176812,
+        "stock_market_index": 997.9040925130472
+      },
+      {
+        "date": "2025-10-07",
+        "gdp_growth": -8.985411824960737,
+        "inflation": 2.508089432019465,
+        "unemployment": 12.95795205765606,
+        "asset_prices": 65.60238913610542,
+        "credit_to_gdp": 79.6282090998939,
+        "housing_price_index": 99.73280817110711,
+        "stock_market_index": 999.4555748437541
+      },
+      {
+        "date": "2025-11-06",
+        "gdp_growth": -9.002460705229188,
+        "inflation": 2.5120109397339947,
+        "unemployment": 12.96606988961341,
+        "asset_prices": 65.6179324703811,
+        "credit_to_gdp": 79.69402823161099,
+        "housing_price_index": 99.60230764274304,
+        "stock_market_index": 1000.5051586626521
+      },
+      {
+        "date": "2025-12-06",
+        "gdp_growth": -9.013596633939047,
+        "inflation": 2.516382817725578,
+        "unemployment": 12.988189189485112,
+        "asset_prices": 65.605648402831,
+        "credit_to_gdp": 79.64453213036249,
+        "housing_price_index": 99.69235867306413,
+        "stock_market_index": 999.4855584532813
+      },
+      {
+        "date": "2026-01-05",
+        "gdp_growth": -8.997757082055857,
+        "inflation": 2.5170154500149646,
+        "unemployment": 12.966716929873444,
+        "asset_prices": 65.56001551176722,
+        "credit_to_gdp": 79.65830427115795,
+        "housing_price_index": 99.69016672720046,
+        "stock_market_index": 998.7377046960595
+      },
+      {
+        "date": "2026-02-04",
+        "gdp_growth": -8.995971717851036,
+        "inflation": 2.521368766484022,
+        "unemployment": 12.97188655123713,
+        "asset_prices": 65.45782407270079,
+        "credit_to_gdp": 79.68385998410272,
+        "housing_price_index": 99.61555793148253,
+        "stock_market_index": 997.0671613753702
+      },
+      {
+        "date": "2026-03-06",
+        "gdp_growth": -8.994988069461469,
+        "inflation": 2.5203414290707333,
+        "unemployment": 12.974834951064775,
+        "asset_prices": 65.47356447119819,
+        "credit_to_gdp": 79.64096739974599,
+        "housing_price_index": 99.42785941497965,
+        "stock_market_index": 997.6526544320243
+      },
+      {
+        "date": "2026-04-05",
+        "gdp_growth": -8.99710807488969,
+        "inflation": 2.519924694828522,
+        "unemployment": 12.979754638743398,
+        "asset_prices": 65.4603955391727,
+        "credit_to_gdp": 79.753799695698,
+        "housing_price_index": 99.37610209750183,
+        "stock_market_index": 997.0920897737565
+      },
+      {
+        "date": "2026-05-05",
+        "gdp_growth": -9.001305891304236,
+        "inflation": 2.5168078265193357,
+        "unemployment": 12.972657921061826,
+        "asset_prices": 65.45944184861017,
+        "credit_to_gdp": 79.75678478077319,
+        "housing_price_index": 99.50814644075008,
+        "stock_market_index": 996.1834538480368
+      },
+      {
+        "date": "2026-06-04",
+        "gdp_growth": -8.995123934142935,
+        "inflation": 2.5162141356838026,
+        "unemployment": 12.958430236764016,
+        "asset_prices": 65.47366026564485,
+        "credit_to_gdp": 79.54940147677401,
+        "housing_price_index": 99.46730461063599,
+        "stock_market_index": 994.8449778910646
+      },
+      {
+        "date": "2026-07-04",
+        "gdp_growth": -8.993927610138266,
+        "inflation": 2.5175421587672275,
+        "unemployment": 12.949075385108763,
+        "asset_prices": 65.47584854429813,
+        "credit_to_gdp": 79.65423998786271,
+        "housing_price_index": 99.50316802911938,
+        "stock_market_index": 993.1656315576465
+      },
+      {
+        "date": "2026-08-03",
+        "gdp_growth": -8.991118100234365,
+        "inflation": 2.5189515199153596,
+        "unemployment": 12.95873246167755,
+        "asset_prices": 65.33614501418744,
+        "credit_to_gdp": 79.57430722272315,
+        "housing_price_index": 99.44622448930178,
+        "stock_market_index": 992.7373200983038
+      },
+      {
+        "date": "2026-09-02",
+        "gdp_growth": -9.00862618683144,
+        "inflation": 2.52016821912053,
+        "unemployment": 12.961106478400744,
+        "asset_prices": 65.36916821861034,
+        "credit_to_gdp": 79.51204584387852,
+        "housing_price_index": 99.54644406356776,
+        "stock_market_index": 992.3181246088753
+      },
+      {
+        "date": "2026-10-02",
+        "gdp_growth": -8.998700992599696,
+        "inflation": 2.5199075796301313,
+        "unemployment": 12.95806123815256,
+        "asset_prices": 65.48087628769247,
+        "credit_to_gdp": 79.46719607270005,
+        "housing_price_index": 99.70531006357618,
+        "stock_market_index": 992.4430501352302
+      },
+      {
+        "date": "2026-11-01",
+        "gdp_growth": -9.004057288978165,
+        "inflation": 2.5215415352009565,
+        "unemployment": 12.973140637051635,
+        "asset_prices": 65.45895172862855,
+        "credit_to_gdp": 79.61684759835026,
+        "housing_price_index": 99.82612297839026,
+        "stock_market_index": 991.0412307893271
+      },
+      {
+        "date": "2026-12-01",
+        "gdp_growth": -9.0126366442102,
+        "inflation": 2.5252741136965278,
+        "unemployment": 12.975163032933603,
+        "asset_prices": 65.41240945856288,
+        "credit_to_gdp": 79.59854399766716,
+        "housing_price_index": 99.83934089331775,
+        "stock_market_index": 991.3004830329353
+      },
+      {
+        "date": "2026-12-31",
+        "gdp_growth": -9.006248259835393,
+        "inflation": 2.5247229792395554,
+        "unemployment": 12.998417415993051,
+        "asset_prices": 65.43680892732243,
+        "credit_to_gdp": 79.5223657627542,
+        "housing_price_index": 99.65748824877903,
+        "stock_market_index": 990.1651824913498
+      },
+      {
+        "date": "2027-01-30",
+        "gdp_growth": -8.997517559221045,
+        "inflation": 2.5229195955807553,
+        "unemployment": 12.999595370642606,
+        "asset_prices": 65.5135329064654,
+        "credit_to_gdp": 79.49724812766219,
+        "housing_price_index": 99.83314118485936,
+        "stock_market_index": 989.5344949603113
+      },
+      {
+        "date": "2027-03-01",
+        "gdp_growth": -9.006000837795968,
+        "inflation": 2.5235054324778274,
+        "unemployment": 12.995162026968842,
+        "asset_prices": 65.46714637420462,
+        "credit_to_gdp": 79.47614082491349,
+        "housing_price_index": 99.87786944812703,
+        "stock_market_index": 990.3060090532036
+      },
+      {
+        "date": "2027-03-31",
+        "gdp_growth": -8.998674640327726,
+        "inflation": 2.524330254868477,
+        "unemployment": 13.011537170037402,
+        "asset_prices": 65.51701250941353,
+        "credit_to_gdp": 79.37394438584411,
+        "housing_price_index": 99.92811745585739,
+        "stock_market_index": 990.9335665598907
+      },
+      {
+        "date": "2027-04-30",
+        "gdp_growth": -9.008608719928477,
+        "inflation": 2.520772870842069,
+        "unemployment": 13.016296687261834,
+        "asset_prices": 65.56971236292499,
+        "credit_to_gdp": 79.4790324174,
+        "housing_price_index": 99.85420730455311,
+        "stock_market_index": 991.5384823033341
+      }
+    ]
+  },
+  "policy_tools": {
+    "time_series": [
+      {
+        "date": "2024-05-15",
+        "countercyclical_buffer": 0.0,
+        "lTV_ratio_cap": 85.0,
+        "dSTI_ratio_cap": 40.0,
+        "capital_surcharge_sifi": 1.0,
+        "liquidity_requirements": 100.0
+      },
+      {
+        "date": "2024-06-14",
+        "countercyclical_buffer": 0.0,
+        "lTV_ratio_cap": 85.0,
+        "dSTI_ratio_cap": 40.0,
+        "capital_surcharge_sifi": 1.0,
+        "liquidity_requirements": 100.0
+      },
+      {
+        "date": "2024-07-14",
+        "countercyclical_buffer": 0.0,
+        "lTV_ratio_cap": 85.0,
+        "dSTI_ratio_cap": 40.0,
+        "capital_surcharge_sifi": 1.0,
+        "liquidity_requirements": 100.0
+      },
+      {
+        "date": "2024-08-13",
+        "countercyclical_buffer": 0.0,
+        "lTV_ratio_cap": 85.0,
+        "dSTI_ratio_cap": 40.0,
+        "capital_surcharge_sifi": 1.0,
+        "liquidity_requirements": 100.0
+      },
+      {
+        "date": "2024-09-12",
+        "countercyclical_buffer": 0.0,
+        "lTV_ratio_cap": 85.0,
+        "dSTI_ratio_cap": 40.0,
+        "capital_surcharge_sifi": 1.0,
+        "liquidity_requirements": 100.0
+      },
+      {
+        "date": "2024-10-12",
+        "countercyclical_buffer": 0.0,
+        "lTV_ratio_cap": 85.0,
+        "dSTI_ratio_cap": 40.0,
+        "capital_surcharge_sifi": 1.0,
+        "liquidity_requirements": 100.0
+      },
+      {
+        "date": "2024-11-11",
+        "countercyclical_buffer": 0.0,
+        "lTV_ratio_cap": 85.0,
+        "dSTI_ratio_cap": 40.0,
+        "capital_surcharge_sifi": 1.0,
+        "liquidity_requirements": 100.0
+      },
+      {
+        "date": "2024-12-11",
+        "countercyclical_buffer": 0.0,
+        "lTV_ratio_cap": 85.0,
+        "dSTI_ratio_cap": 40.0,
+        "capital_surcharge_sifi": 1.0,
+        "liquidity_requirements": 100.0
+      },
+      {
+        "date": "2025-01-10",
+        "countercyclical_buffer": 0.0,
+        "lTV_ratio_cap": 85.0,
+        "dSTI_ratio_cap": 40.0,
+        "capital_surcharge_sifi": 1.0,
+        "liquidity_requirements": 100.0
+      },
+      {
+        "date": "2025-02-09",
+        "countercyclical_buffer": 0.0,
+        "lTV_ratio_cap": 85.0,
+        "dSTI_ratio_cap": 40.0,
+        "capital_surcharge_sifi": 1.0,
+        "liquidity_requirements": 100.0
+      },
+      {
+        "date": "2025-03-11",
+        "countercyclical_buffer": 0.0,
+        "lTV_ratio_cap": 85.0,
+        "dSTI_ratio_cap": 40.0,
+        "capital_surcharge_sifi": 1.0,
+        "liquidity_requirements": 100.0
+      },
+      {
+        "date": "2025-04-10",
+        "countercyclical_buffer": 0.0,
+        "lTV_ratio_cap": 85.0,
+        "dSTI_ratio_cap": 40.0,
+        "capital_surcharge_sifi": 1.0,
+        "liquidity_requirements": 100.0
+      },
+      {
+        "date": "2025-05-10",
+        "countercyclical_buffer": 0.0,
+        "lTV_ratio_cap": 85.0,
+        "dSTI_ratio_cap": 40.0,
+        "capital_surcharge_sifi": 1.0,
+        "liquidity_requirements": 100.0
+      },
+      {
+        "date": "2025-06-09",
+        "countercyclical_buffer": 0.0,
+        "lTV_ratio_cap": 85.0,
+        "dSTI_ratio_cap": 40.0,
+        "capital_surcharge_sifi": 1.0,
+        "liquidity_requirements": 100.0
+      },
+      {
+        "date": "2025-07-09",
+        "countercyclical_buffer": 0.0,
+        "lTV_ratio_cap": 85.0,
+        "dSTI_ratio_cap": 40.0,
+        "capital_surcharge_sifi": 1.0,
+        "liquidity_requirements": 100.0
+      },
+      {
+        "date": "2025-08-08",
+        "countercyclical_buffer": 0.0,
+        "lTV_ratio_cap": 85.0,
+        "dSTI_ratio_cap": 40.0,
+        "capital_surcharge_sifi": 1.0,
+        "liquidity_requirements": 100.0
+      },
+      {
+        "date": "2025-09-07",
+        "countercyclical_buffer": 0.0,
+        "lTV_ratio_cap": 85.0,
+        "dSTI_ratio_cap": 40.0,
+        "capital_surcharge_sifi": 1.0,
+        "liquidity_requirements": 100.0
+      },
+      {
+        "date": "2025-10-07",
+        "countercyclical_buffer": 0.0,
+        "lTV_ratio_cap": 85.0,
+        "dSTI_ratio_cap": 40.0,
+        "capital_surcharge_sifi": 1.0,
+        "liquidity_requirements": 100.0
+      },
+      {
+        "date": "2025-11-06",
+        "countercyclical_buffer": 0.0,
+        "lTV_ratio_cap": 85.0,
+        "dSTI_ratio_cap": 40.0,
+        "capital_surcharge_sifi": 1.0,
+        "liquidity_requirements": 100.0
+      },
+      {
+        "date": "2025-12-06",
+        "countercyclical_buffer": 0.0,
+        "lTV_ratio_cap": 85.0,
+        "dSTI_ratio_cap": 40.0,
+        "capital_surcharge_sifi": 1.0,
+        "liquidity_requirements": 100.0
+      },
+      {
+        "date": "2026-01-05",
+        "countercyclical_buffer": 0.0,
+        "lTV_ratio_cap": 85.0,
+        "dSTI_ratio_cap": 40.0,
+        "capital_surcharge_sifi": 1.0,
+        "liquidity_requirements": 100.0
+      },
+      {
+        "date": "2026-02-04",
+        "countercyclical_buffer": 0.0,
+        "lTV_ratio_cap": 85.0,
+        "dSTI_ratio_cap": 40.0,
+        "capital_surcharge_sifi": 1.0,
+        "liquidity_requirements": 100.0
+      },
+      {
+        "date": "2026-03-06",
+        "countercyclical_buffer": 0.0,
+        "lTV_ratio_cap": 85.0,
+        "dSTI_ratio_cap": 40.0,
+        "capital_surcharge_sifi": 1.0,
+        "liquidity_requirements": 100.0
+      },
+      {
+        "date": "2026-04-05",
+        "countercyclical_buffer": 0.0,
+        "lTV_ratio_cap": 85.0,
+        "dSTI_ratio_cap": 40.0,
+        "capital_surcharge_sifi": 1.0,
+        "liquidity_requirements": 100.0
+      },
+      {
+        "date": "2026-05-05",
+        "countercyclical_buffer": 0.0,
+        "lTV_ratio_cap": 85.0,
+        "dSTI_ratio_cap": 40.0,
+        "capital_surcharge_sifi": 1.0,
+        "liquidity_requirements": 100.0
+      },
+      {
+        "date": "2026-06-04",
+        "countercyclical_buffer": 0.0,
+        "lTV_ratio_cap": 85.0,
+        "dSTI_ratio_cap": 40.0,
+        "capital_surcharge_sifi": 1.0,
+        "liquidity_requirements": 100.0
+      },
+      {
+        "date": "2026-07-04",
+        "countercyclical_buffer": 0.0,
+        "lTV_ratio_cap": 85.0,
+        "dSTI_ratio_cap": 40.0,
+        "capital_surcharge_sifi": 1.0,
+        "liquidity_requirements": 100.0
+      },
+      {
+        "date": "2026-08-03",
+        "countercyclical_buffer": 0.0,
+        "lTV_ratio_cap": 85.0,
+        "dSTI_ratio_cap": 40.0,
+        "capital_surcharge_sifi": 1.0,
+        "liquidity_requirements": 100.0
+      },
+      {
+        "date": "2026-09-02",
+        "countercyclical_buffer": 0.0,
+        "lTV_ratio_cap": 85.0,
+        "dSTI_ratio_cap": 40.0,
+        "capital_surcharge_sifi": 1.0,
+        "liquidity_requirements": 100.0
+      },
+      {
+        "date": "2026-10-02",
+        "countercyclical_buffer": 0.0,
+        "lTV_ratio_cap": 85.0,
+        "dSTI_ratio_cap": 40.0,
+        "capital_surcharge_sifi": 1.0,
+        "liquidity_requirements": 100.0
+      },
+      {
+        "date": "2026-11-01",
+        "countercyclical_buffer": 0.0,
+        "lTV_ratio_cap": 85.0,
+        "dSTI_ratio_cap": 40.0,
+        "capital_surcharge_sifi": 1.0,
+        "liquidity_requirements": 100.0
+      },
+      {
+        "date": "2026-12-01",
+        "countercyclical_buffer": 0.0,
+        "lTV_ratio_cap": 85.0,
+        "dSTI_ratio_cap": 40.0,
+        "capital_surcharge_sifi": 1.0,
+        "liquidity_requirements": 100.0
+      },
+      {
+        "date": "2026-12-31",
+        "countercyclical_buffer": 0.0,
+        "lTV_ratio_cap": 85.0,
+        "dSTI_ratio_cap": 40.0,
+        "capital_surcharge_sifi": 1.0,
+        "liquidity_requirements": 100.0
+      },
+      {
+        "date": "2027-01-30",
+        "countercyclical_buffer": 0.0,
+        "lTV_ratio_cap": 85.0,
+        "dSTI_ratio_cap": 40.0,
+        "capital_surcharge_sifi": 1.0,
+        "liquidity_requirements": 100.0
+      },
+      {
+        "date": "2027-03-01",
+        "countercyclical_buffer": 0.0,
+        "lTV_ratio_cap": 85.0,
+        "dSTI_ratio_cap": 40.0,
+        "capital_surcharge_sifi": 1.0,
+        "liquidity_requirements": 100.0
+      },
+      {
+        "date": "2027-03-31",
+        "countercyclical_buffer": 0.0,
+        "lTV_ratio_cap": 85.0,
+        "dSTI_ratio_cap": 40.0,
+        "capital_surcharge_sifi": 1.0,
+        "liquidity_requirements": 100.0
+      },
+      {
+        "date": "2027-04-30",
+        "countercyclical_buffer": 0.0,
+        "lTV_ratio_cap": 85.0,
+        "dSTI_ratio_cap": 40.0,
+        "capital_surcharge_sifi": 1.0,
+        "liquidity_requirements": 100.0
+      }
+    ],
+    "current": {
+      "countercyclical_buffer": 0.0,
+      "lTV_ratio_cap": 85.0,
+      "dSTI_ratio_cap": 40.0,
+      "capital_surcharge_sifi": 1.0,
+      "liquidity_requirements": 100.0
+    }
+  },
+  "banks": [
+    {
+      "bank": {
+        "id": 1,
+        "name": "Large Bank 1",
+        "total_assets": 194800.02580935,
+        "is_systemically_important": true,
+        "size_category": "Large"
+      },
+      "financial_metrics": {
+        "capital_adequacy_ratio": 3.986675404704823,
+        "npl_ratio": 11.184746091836647,
+        "liquidity_ratio": 138.05381157708237,
+        "rwa_ratio": 54.293694825111956
+      },
+      "systemic_importance_score": 42.41254026185288,
+      "vulnerability_score": 60.25076235193961,
+      "status": "failed"
+    },
+    {
+      "bank": {
+        "id": 2,
+        "name": "Large Bank 2",
+        "total_assets": 119211.23769801436,
+        "is_systemically_important": true,
+        "size_category": "Large"
+      },
+      "financial_metrics": {
+        "capital_adequacy_ratio": 2.9058453123438324,
+        "npl_ratio": 13.588198382862563,
+        "liquidity_ratio": 107.87082603703332,
+        "rwa_ratio": 59.54885742011112
+      },
+      "systemic_importance_score": 40.56964251545764,
+      "vulnerability_score": 70.44522244823457,
+      "status": "failed"
+    },
+    {
+      "bank": {
+        "id": 3,
+        "name": "Large Bank 3",
+        "total_assets": 102501.98560696162,
+        "is_systemically_important": true,
+        "size_category": "Large"
+      },
+      "financial_metrics": {
+        "capital_adequacy_ratio": 3.865861538307954,
+        "npl_ratio": 10.641777811244275,
+        "liquidity_ratio": 127.06464243608897,
+        "rwa_ratio": 52.01798960132677
+      },
+      "systemic_importance_score": 36.5121088585648,
+      "vulnerability_score": 63.76813400805316,
+      "status": "failed"
+    },
+    {
+      "bank": {
+        "id": 4,
+        "name": "Large Bank 4",
+        "total_assets": 111842.57098309828,
+        "is_systemically_important": true,
+        "size_category": "Large"
+      },
+      "financial_metrics": {
+        "capital_adequacy_ratio": 3.551447524469741,
+        "npl_ratio": 16.46952419137479,
+        "liquidity_ratio": 96.23822698569941,
+        "rwa_ratio": 54.233166283427494
+      },
+      "systemic_importance_score": 36.21381355259373,
+      "vulnerability_score": 68.30622071765006,
+      "status": "failed"
+    },
+    {
+      "bank": {
+        "id": 5,
+        "name": "Large Bank 5",
+        "total_assets": 73790.00656247373,
+        "is_systemically_important": true,
+        "size_category": "Large"
+      },
+      "financial_metrics": {
+        "capital_adequacy_ratio": 8.340270667142592,
+        "npl_ratio": 16.806700180532236,
+        "liquidity_ratio": 130.1766780748398,
+        "rwa_ratio": 64.08352137159089
+      },
+      "systemic_importance_score": 31.75763153315513,
+      "vulnerability_score": 60.26960760550672,
+      "status": "active"
+    },
+    {
+      "bank": {
+        "id": 6,
+        "name": "Medium Bank 1",
+        "total_assets": 47615.07126916392,
+        "is_systemically_important": true,
+        "size_category": "Medium"
+      },
+      "financial_metrics": {
+        "capital_adequacy_ratio": 9.213995797731437,
+        "npl_ratio": 17.29169575837834,
+        "liquidity_ratio": 127.71988951020711,
+        "rwa_ratio": 73.58830768559565
+      },
+      "systemic_importance_score": 23.179350796100415,
+      "vulnerability_score": 60.02079750362569,
+      "status": "active"
+    },
+    {
+      "bank": {
+        "id": 7,
+        "name": "Medium Bank 2",
+        "total_assets": 39849.70124912405,
+        "is_systemically_important": false,
+        "size_category": "Medium"
+      },
+      "financial_metrics": {
+        "capital_adequacy_ratio": 3.8172549273650795,
+        "npl_ratio": 16.49941520194034,
+        "liquidity_ratio": 88.95812326630562,
+        "rwa_ratio": 72.68390302701911
+      },
+      "systemic_importance_score": 22.06725941819549,
+      "vulnerability_score": 71.08513558199994,
+      "status": "failed"
+    },
+    {
+      "bank": {
+        "id": 8,
+        "name": "Medium Bank 3",
+        "total_assets": 22796.328804969628,
+        "is_systemically_important": false,
+        "size_category": "Medium"
+      },
+      "financial_metrics": {
+        "capital_adequacy_ratio": 1.9646821427779866,
+        "npl_ratio": 21.866204747544465,
+        "liquidity_ratio": 80.87592374683547,
+        "rwa_ratio": 66.64752379838934
+      },
+      "systemic_importance_score": 12.171490852220506,
+      "vulnerability_score": 73.74572640363681,
+      "status": "failed"
+    },
+    {
+      "bank": {
+        "id": 9,
+        "name": "Medium Bank 4",
+        "total_assets": 36081.0162262982,
+        "is_systemically_important": false,
+        "size_category": "Medium"
+      },
+      "financial_metrics": {
+        "capital_adequacy_ratio": 2.9313149843891173,
+        "npl_ratio": 13.90765015045445,
+        "liquidity_ratio": 96.47983717806822,
+        "rwa_ratio": 56.28043829762967
+      },
+      "systemic_importance_score": 18.38873758774004,
+      "vulnerability_score": 71.28343130929477,
+      "status": "failed"
+    },
+    {
+      "bank": {
+        "id": 10,
+        "name": "Medium Bank 5",
+        "total_assets": 27508.10630260596,
+        "is_systemically_important": false,
+        "size_category": "Medium"
+      },
+      "financial_metrics": {
+        "capital_adequacy_ratio": 3.483272947089399,
+        "npl_ratio": 13.84670611381275,
+        "liquidity_ratio": 101.41233939456428,
+        "rwa_ratio": 61.331243232268164
+      },
+      "systemic_importance_score": 17.79243670698441,
+      "vulnerability_score": 65.42276674547968,
+      "status": "failed"
+    },
+    {
+      "bank": {
+        "id": 11,
+        "name": "Medium Bank 6",
+        "total_assets": 17745.431032167853,
+        "is_systemically_important": false,
+        "size_category": "Medium"
+      },
+      "financial_metrics": {
+        "capital_adequacy_ratio": 1.9455902633536435,
+        "npl_ratio": 15.44017915068451,
+        "liquidity_ratio": 92.84071497978056,
+        "rwa_ratio": 58.362581409339406
+      },
+      "systemic_importance_score": 19.881784323379886,
+      "vulnerability_score": 71.39014590944728,
+      "status": "failed"
+    },
+    {
+      "bank": {
+        "id": 12,
+        "name": "Medium Bank 7",
+        "total_assets": 23531.45742840492,
+        "is_systemically_important": false,
+        "size_category": "Medium"
+      },
+      "financial_metrics": {
+        "capital_adequacy_ratio": 7.22138894422628,
+        "npl_ratio": 18.921850810116773,
+        "liquidity_ratio": 98.42011191626872,
+        "rwa_ratio": 78.69788132756148
+      },
+      "systemic_importance_score": 20.408125043846308,
+      "vulnerability_score": 66.5780726041358,
+      "status": "active"
+    },
+    {
+      "bank": {
+        "id": 13,
+        "name": "Medium Bank 8",
+        "total_assets": 35642.66695013662,
+        "is_systemically_important": false,
+        "size_category": "Medium"
+      },
+      "financial_metrics": {
+        "capital_adequacy_ratio": 3.0549967433911847,
+        "npl_ratio": 17.04777160231781,
+        "liquidity_ratio": 115.58676350425839,
+        "rwa_ratio": 68.30464902247724
+      },
+      "systemic_importance_score": 9.051276918632627,
+      "vulnerability_score": 68.52280887231134,
+      "status": "failed"
+    },
+    {
+      "bank": {
+        "id": 14,
+        "name": "Medium Bank 9",
+        "total_assets": 20129.832086972638,
+        "is_systemically_important": false,
+        "size_category": "Medium"
+      },
+      "financial_metrics": {
+        "capital_adequacy_ratio": 2.839434808389919,
+        "npl_ratio": 21.335320238700024,
+        "liquidity_ratio": 84.9370230810865,
+        "rwa_ratio": 73.68258080056574
+      },
+      "systemic_importance_score": 9.861885687671606,
+      "vulnerability_score": 71.00149915571191,
+      "status": "failed"
+    },
+    {
+      "bank": {
+        "id": 15,
+        "name": "Medium Bank 10",
+        "total_assets": 35814.44503249742,
+        "is_systemically_important": false,
+        "size_category": "Medium"
+      },
+      "financial_metrics": {
+        "capital_adequacy_ratio": 3.8215754833273516,
+        "npl_ratio": 14.25231909496175,
+        "liquidity_ratio": 137.5353408921518,
+        "rwa_ratio": 50.77399138415766
+      },
+      "systemic_importance_score": 10.974188490178822,
+      "vulnerability_score": 65.34767492999669,
+      "status": "failed"
+    },
+    {
+      "bank": {
+        "id": 16,
+        "name": "Medium Bank 11",
+        "total_assets": 40758.38433712013,
+        "is_systemically_important": false,
+        "size_category": "Medium"
+      },
+      "financial_metrics": {
+        "capital_adequacy_ratio": 12.476793017296517,
+        "npl_ratio": 16.478511431343385,
+        "liquidity_ratio": 135.19990163018807,
+        "rwa_ratio": 57.25020294083411
+      },
+      "systemic_importance_score": 22.635930368025377,
+      "vulnerability_score": 58.834062130393676,
+      "status": "active"
+    },
+    {
+      "bank": {
+        "id": 17,
+        "name": "Medium Bank 12",
+        "total_assets": 26138.073335460078,
+        "is_systemically_important": false,
+        "size_category": "Medium"
+      },
+      "financial_metrics": {
+        "capital_adequacy_ratio": 1.7484025326444734,
+        "npl_ratio": 15.928628479918748,
+        "liquidity_ratio": 107.51061859216817,
+        "rwa_ratio": 51.62207581963864
+      },
+      "systemic_importance_score": 17.603631534949823,
+      "vulnerability_score": 73.83881065070068,
+      "status": "failed"
+    },
+    {
+      "bank": {
+        "id": 18,
+        "name": "Medium Bank 13",
+        "total_assets": 27301.69796556329,
+        "is_systemically_important": true,
+        "size_category": "Medium"
+      },
+      "financial_metrics": {
+        "capital_adequacy_ratio": 3.762123427973865,
+        "npl_ratio": 14.871882311965061,
+        "liquidity_ratio": 91.87538795726277,
+        "rwa_ratio": 52.10519889280582
+      },
+      "systemic_importance_score": 15.983221139340596,
+      "vulnerability_score": 67.84296528554319,
+      "status": "failed"
+    },
+    {
+      "bank": {
+        "id": 19,
+        "name": "Medium Bank 14",
+        "total_assets": 19486.28661336308,
+        "is_systemically_important": false,
+        "size_category": "Medium"
+      },
+      "financial_metrics": {
+        "capital_adequacy_ratio": 10.907048785698425,
+        "npl_ratio": 16.917475278722367,
+        "liquidity_ratio": 131.9138677011524,
+        "rwa_ratio": 72.33302248289041
+      },
+      "systemic_importance_score": 12.068546614579905,
+      "vulnerability_score": 57.98431497867102,
+      "status": "active"
+    },
+    {
+      "bank": {
+        "id": 20,
+        "name": "Medium Bank 15",
+        "total_assets": 25264.576599198524,
+        "is_systemically_important": true,
+        "size_category": "Medium"
+      },
+      "financial_metrics": {
+        "capital_adequacy_ratio": 9.324871508286442,
+        "npl_ratio": 17.13871099054079,
+        "liquidity_ratio": 131.1104105155103,
+        "rwa_ratio": 72.06124275048617
+      },
+      "systemic_importance_score": 15.022362444518965,
+      "vulnerability_score": 59.41041556112931,
+      "status": "active"
+    },
+    {
+      "bank": {
+        "id": 21,
+        "name": "Small Bank 1",
+        "total_assets": 3869.897219764849,
+        "is_systemically_important": false,
+        "size_category": "Small"
+      },
+      "financial_metrics": {
+        "capital_adequacy_ratio": 1.9750650781521815,
+        "npl_ratio": 17.608172122732736,
+        "liquidity_ratio": 88.12723103316407,
+        "rwa_ratio": 64.49203863591491
+      },
+      "systemic_importance_score": 0.7938612331761967,
+      "vulnerability_score": 73.03833182637435,
+      "status": "failed"
+    },
+    {
+      "bank": {
+        "id": 22,
+        "name": "Small Bank 2",
+        "total_assets": 1260.1916482077052,
+        "is_systemically_important": false,
+        "size_category": "Small"
+      },
+      "financial_metrics": {
+        "capital_adequacy_ratio": 3.9200431254040575,
+        "npl_ratio": 14.577710398313606,
+        "liquidity_ratio": 96.35859436600575,
+        "rwa_ratio": 68.48473903598423
+      },
+      "systemic_importance_score": 1.6079871027115629,
+      "vulnerability_score": 61.93048333550269,
+      "status": "failed"
+    },
+    {
+      "bank": {
+        "id": 23,
+        "name": "Small Bank 3",
+        "total_assets": 3042.6175524951755,
+        "is_systemically_important": false,
+        "size_category": "Small"
+      },
+      "financial_metrics": {
+        "capital_adequacy_ratio": 2.2001146481767706,
+        "npl_ratio": 20.172006763502885,
+        "liquidity_ratio": 84.19333467932032,
+        "rwa_ratio": 53.999265372837755
+      },
+      "systemic_importance_score": 5.1185069773221485,
+      "vulnerability_score": 62.71616226870374,
+      "status": "failed"
+    },
+    {
+      "bank": {
+        "id": 24,
+        "name": "Small Bank 4",
+        "total_assets": 3219.5488453721314,
+        "is_systemically_important": false,
+        "size_category": "Small"
+      },
+      "financial_metrics": {
+        "capital_adequacy_ratio": 3.885840492814117,
+        "npl_ratio": 14.263524664156202,
+        "liquidity_ratio": 92.64050525446267,
+        "rwa_ratio": 51.36932199396736
+      },
+      "systemic_importance_score": 0.18638345922657445,
+      "vulnerability_score": 63.878964938441044,
+      "status": "failed"
+    },
+    {
+      "bank": {
+        "id": 25,
+        "name": "Small Bank 5",
+        "total_assets": 3103.899951794471,
+        "is_systemically_important": false,
+        "size_category": "Small"
+      },
+      "financial_metrics": {
+        "capital_adequacy_ratio": 3.284987031254158,
+        "npl_ratio": 17.21864480513772,
+        "liquidity_ratio": 114.63489868118899,
+        "rwa_ratio": 79.05923381776428
+      },
+      "systemic_importance_score": 4.945630238383333,
+      "vulnerability_score": 59.83124745543856,
+      "status": "failed"
+    },
+    {
+      "bank": {
+        "id": 26,
+        "name": "Small Bank 6",
+        "total_assets": 3258.9858330403085,
+        "is_systemically_important": false,
+        "size_category": "Small"
+      },
+      "financial_metrics": {
+        "capital_adequacy_ratio": 3.95003017139623,
+        "npl_ratio": 14.89370078944771,
+        "liquidity_ratio": 94.36349218883834,
+        "rwa_ratio": 76.50353329016797
+      },
+      "systemic_importance_score": 0.49560032460163606,
+      "vulnerability_score": 56.004230715675874,
+      "status": "failed"
+    },
+    {
+      "bank": {
+        "id": 27,
+        "name": "Small Bank 7",
+        "total_assets": 3913.591633136583,
+        "is_systemically_important": false,
+        "size_category": "Small"
+      },
+      "financial_metrics": {
+        "capital_adequacy_ratio": 10.215969224027363,
+        "npl_ratio": 16.587636905816616,
+        "liquidity_ratio": 124.05160950214194,
+        "rwa_ratio": 78.0985466369454
+      },
+      "systemic_importance_score": 4.185940699438619,
+      "vulnerability_score": 63.121912331939185,
+      "status": "active"
+    },
+    {
+      "bank": {
+        "id": 28,
+        "name": "Small Bank 8",
+        "total_assets": 4643.840997646755,
+        "is_systemically_important": false,
+        "size_category": "Small"
+      },
+      "financial_metrics": {
+        "capital_adequacy_ratio": 2.896420675303131,
+        "npl_ratio": 19.70936137897939,
+        "liquidity_ratio": 86.93699762314091,
+        "rwa_ratio": 65.8916160585981
+      },
+      "systemic_importance_score": 1.513569575823562,
+      "vulnerability_score": 69.37211449071137,
+      "status": "failed"
+    },
+    {
+      "bank": {
+        "id": 29,
+        "name": "Small Bank 9",
+        "total_assets": 4303.808327504484,
+        "is_systemically_important": false,
+        "size_category": "Small"
+      },
+      "financial_metrics": {
+        "capital_adequacy_ratio": 9.712689814746751,
+        "npl_ratio": 16.058200244223976,
+        "liquidity_ratio": 134.6357900370143,
+        "rwa_ratio": 72.71041075938737
+      },
+      "systemic_importance_score": 1.048272562387802,
+      "vulnerability_score": 41.810354633637125,
+      "status": "active"
+    },
+    {
+      "bank": {
+        "id": 30,
+        "name": "Small Bank 10",
+        "total_assets": 1387.8130652130244,
+        "is_systemically_important": false,
+        "size_category": "Small"
+      },
+      "financial_metrics": {
+        "capital_adequacy_ratio": 3.8148658905121935,
+        "npl_ratio": 16.72136396966026,
+        "liquidity_ratio": 92.41816777341754,
+        "rwa_ratio": 76.98854820026298
+      },
+      "systemic_importance_score": 3.7213011451422013,
+      "vulnerability_score": 65.61719471977493,
+      "status": "failed"
+    },
+    {
+      "bank": {
+        "id": 31,
+        "name": "Small Bank 11",
+        "total_assets": 816.065921115891,
+        "is_systemically_important": false,
+        "size_category": "Small"
+      },
+      "financial_metrics": {
+        "capital_adequacy_ratio": 3.420883079479822,
+        "npl_ratio": 15.665282939712581,
+        "liquidity_ratio": 90.29661213940867,
+        "rwa_ratio": 55.909878267165496
+      },
+      "systemic_importance_score": 0.5948094854219593,
+      "vulnerability_score": 67.38849489058865,
+      "status": "failed"
+    },
+    {
+      "bank": {
+        "id": 32,
+        "name": "Small Bank 12",
+        "total_assets": 1392.8576500375752,
+        "is_systemically_important": false,
+        "size_category": "Small"
+      },
+      "financial_metrics": {
+        "capital_adequacy_ratio": 1.7848400847419188,
+        "npl_ratio": 19.772202497300434,
+        "liquidity_ratio": 89.83787136056004,
+        "rwa_ratio": 63.30439541236174
+      },
+      "systemic_importance_score": 2.4606713419236965,
+      "vulnerability_score": 64.40912788816635,
+      "status": "failed"
+    },
+    {
+      "bank": {
+        "id": 33,
+        "name": "Small Bank 13",
+        "total_assets": 3029.372565150717,
+        "is_systemically_important": false,
+        "size_category": "Small"
+      },
+      "financial_metrics": {
+        "capital_adequacy_ratio": 1.5497133431229964,
+        "npl_ratio": 17.753740044216723,
+        "liquidity_ratio": 85.80635107082878,
+        "rwa_ratio": 57.91567577729449
+      },
+      "systemic_importance_score": 3.2035728472265723,
+      "vulnerability_score": 60.53979072898057,
+      "status": "failed"
+    },
+    {
+      "bank": {
+        "id": 34,
+        "name": "Small Bank 14",
+        "total_assets": 2409.568379754686,
+        "is_systemically_important": false,
+        "size_category": "Small"
+      },
+      "financial_metrics": {
+        "capital_adequacy_ratio": 8.783354286505604,
+        "npl_ratio": 17.97245704508085,
+        "liquidity_ratio": 116.98274741375687,
+        "rwa_ratio": 71.28021484598305
+      },
+      "systemic_importance_score": 0.9672420970248828,
+      "vulnerability_score": 63.1452885633523,
+      "status": "active"
+    },
+    {
+      "bank": {
+        "id": 35,
+        "name": "Small Bank 15",
+        "total_assets": 573.712938776781,
+        "is_systemically_important": false,
+        "size_category": "Small"
+      },
+      "financial_metrics": {
+        "capital_adequacy_ratio": 3.358036050184452,
+        "npl_ratio": 16.69592086022681,
+        "liquidity_ratio": 105.44984422392247,
+        "rwa_ratio": 67.07103898738072
+      },
+      "systemic_importance_score": 0.6875402500494141,
+      "vulnerability_score": 68.27651275874548,
+      "status": "failed"
+    },
+    {
+      "bank": {
+        "id": 36,
+        "name": "Small Bank 16",
+        "total_assets": 1397.4675164039013,
+        "is_systemically_important": false,
+        "size_category": "Small"
+      },
+      "financial_metrics": {
+        "capital_adequacy_ratio": 3.3229218945954533,
+        "npl_ratio": 17.135666477108725,
+        "liquidity_ratio": 85.45123363010798,
+        "rwa_ratio": 79.70949727731491
+      },
+      "systemic_importance_score": 2.8562974087909105,
+      "vulnerability_score": 62.67448826695963,
+      "status": "failed"
+    },
+    {
+      "bank": {
+        "id": 37,
+        "name": "Small Bank 17",
+        "total_assets": 3258.7473913867893,
+        "is_systemically_important": false,
+        "size_category": "Small"
+      },
+      "financial_metrics": {
+        "capital_adequacy_ratio": 1.8422504319312134,
+        "npl_ratio": 20.10184183495216,
+        "liquidity_ratio": 88.78663616770494,
+        "rwa_ratio": 71.8580230643658
+      },
+      "systemic_importance_score": 2.390470366730074,
+      "vulnerability_score": 65.3938914524307,
+      "status": "failed"
+    },
+    {
+      "bank": {
+        "id": 38,
+        "name": "Small Bank 18",
+        "total_assets": 3738.609385850174,
+        "is_systemically_important": false,
+        "size_category": "Small"
+      },
+      "financial_metrics": {
+        "capital_adequacy_ratio": 3.568253260041726,
+        "npl_ratio": 15.623432788150547,
+        "liquidity_ratio": 88.8215713442663,
+        "rwa_ratio": 59.64930312392883
+      },
+      "systemic_importance_score": 0.7169279259143923,
+      "vulnerability_score": 64.27396056277797,
+      "status": "failed"
+    },
+    {
+      "bank": {
+        "id": 39,
+        "name": "Small Bank 19",
+        "total_assets": 3100.664309445811,
+        "is_systemically_important": false,
+        "size_category": "Small"
+      },
+      "financial_metrics": {
+        "capital_adequacy_ratio": 2.740955126388959,
+        "npl_ratio": 16.065577526889474,
+        "liquidity_ratio": 97.13522536518686,
+        "rwa_ratio": 52.88398231314689
+      },
+      "systemic_importance_score": 3.9115619713010585,
+      "vulnerability_score": 65.07082994708348,
+      "status": "failed"
+    },
+    {
+      "bank": {
+        "id": 40,
+        "name": "Small Bank 20",
+        "total_assets": 3267.4246764833288,
+        "is_systemically_important": false,
+        "size_category": "Small"
+      },
+      "financial_metrics": {
+        "capital_adequacy_ratio": 8.072655476116024,
+        "npl_ratio": 17.463080901826284,
+        "liquidity_ratio": 111.14403070022553,
+        "rwa_ratio": 73.50940093410398
+      },
+      "systemic_importance_score": 4.655017207038915,
+      "vulnerability_score": 56.3744120047125,
+      "status": "active"
+    },
+    {
+      "bank": {
+        "id": 41,
+        "name": "Small Bank 21",
+        "total_assets": 4171.424406225276,
+        "is_systemically_important": false,
+        "size_category": "Small"
+      },
+      "financial_metrics": {
+        "capital_adequacy_ratio": 3.15644097450077,
+        "npl_ratio": 15.870259694867507,
+        "liquidity_ratio": 100.89012957276245,
+        "rwa_ratio": 78.64949034433431
+      },
+      "systemic_importance_score": 3.393314199478919,
+      "vulnerability_score": 65.01830602096317,
+      "status": "failed"
+    },
+    {
+      "bank": {
+        "id": 42,
+        "name": "Small Bank 22",
+        "total_assets": 3776.5170143425894,
+        "is_systemically_important": false,
+        "size_category": "Small"
+      },
+      "financial_metrics": {
+        "capital_adequacy_ratio": 2.5552717144642245,
+        "npl_ratio": 17.674192979163834,
+        "liquidity_ratio": 93.7789331080221,
+        "rwa_ratio": 73.98309220083921
+      },
+      "systemic_importance_score": 2.417108317393418,
+      "vulnerability_score": 65.37946095469934,
+      "status": "failed"
+    },
+    {
+      "bank": {
+        "id": 43,
+        "name": "Small Bank 23",
+        "total_assets": 2958.496876285195,
+        "is_systemically_important": false,
+        "size_category": "Small"
+      },
+      "financial_metrics": {
+        "capital_adequacy_ratio": 3.2945531052022674,
+        "npl_ratio": 16.474956260575972,
+        "liquidity_ratio": 103.9541652925781,
+        "rwa_ratio": 68.06289378179628
+      },
+      "systemic_importance_score": 3.2131393664085808,
+      "vulnerability_score": 64.88121132883576,
+      "status": "failed"
+    },
+    {
+      "bank": {
+        "id": 44,
+        "name": "Small Bank 24",
+        "total_assets": 4340.867697764606,
+        "is_systemically_important": false,
+        "size_category": "Small"
+      },
+      "financial_metrics": {
+        "capital_adequacy_ratio": 2.361043834601252,
+        "npl_ratio": 17.391909308560987,
+        "liquidity_ratio": 83.20568530264921,
+        "rwa_ratio": 66.65265901768115
+      },
+      "systemic_importance_score": 4.429059273526472,
+      "vulnerability_score": 68.20728021234373,
+      "status": "failed"
+    },
+    {
+      "bank": {
+        "id": 45,
+        "name": "Small Bank 25",
+        "total_assets": 1634.7829117840665,
+        "is_systemically_important": false,
+        "size_category": "Small"
+      },
+      "financial_metrics": {
+        "capital_adequacy_ratio": 1.0806790054163784,
+        "npl_ratio": 16.684091328747474,
+        "liquidity_ratio": 108.3660901201707,
+        "rwa_ratio": 60.81973749941345
+      },
+      "systemic_importance_score": 4.169271939913697,
+      "vulnerability_score": 69.12799017007661,
+      "status": "failed"
+    },
+    {
+      "bank": {
+        "id": 46,
+        "name": "Small Bank 26",
+        "total_assets": 5083.877187917987,
+        "is_systemically_important": false,
+        "size_category": "Small"
+      },
+      "financial_metrics": {
+        "capital_adequacy_ratio": 1.6246694453342343,
+        "npl_ratio": 17.32838897958477,
+        "liquidity_ratio": 96.03909226046885,
+        "rwa_ratio": 68.70728408816052
+      },
+      "systemic_importance_score": 2.8524033772805613,
+      "vulnerability_score": 62.34327719757636,
+      "status": "failed"
+    },
+    {
+      "bank": {
+        "id": 47,
+        "name": "Small Bank 27",
+        "total_assets": 2411.9549919797164,
+        "is_systemically_important": false,
+        "size_category": "Small"
+      },
+      "financial_metrics": {
+        "capital_adequacy_ratio": 2.9471465807838784,
+        "npl_ratio": 16.88257108841737,
+        "liquidity_ratio": 97.52367926384615,
+        "rwa_ratio": 54.174796208162064
+      },
+      "systemic_importance_score": 2.1663788992632713,
+      "vulnerability_score": 65.03523713373424,
+      "status": "failed"
+    },
+    {
+      "bank": {
+        "id": 48,
+        "name": "Small Bank 28",
+        "total_assets": 2168.3593259604772,
+        "is_systemically_important": false,
+        "size_category": "Small"
+      },
+      "financial_metrics": {
+        "capital_adequacy_ratio": 3.6915091662123305,
+        "npl_ratio": 16.20645021194264,
+        "liquidity_ratio": 92.21606028258324,
+        "rwa_ratio": 54.81202411640458
+      },
+      "systemic_importance_score": 0.7945451381855116,
+      "vulnerability_score": 70.91789905979283,
+      "status": "failed"
+    },
+    {
+      "bank": {
+        "id": 49,
+        "name": "Small Bank 29",
+        "total_assets": 996.6179074945884,
+        "is_systemically_important": false,
+        "size_category": "Small"
+      },
+      "financial_metrics": {
+        "capital_adequacy_ratio": 2.1853938383231215,
+        "npl_ratio": 17.660813150020456,
+        "liquidity_ratio": 94.59620679523151,
+        "rwa_ratio": 68.36445268185366
+      },
+      "systemic_importance_score": 1.970711031500592,
+      "vulnerability_score": 70.62327971520116,
+      "status": "failed"
+    },
+    {
+      "bank": {
+        "id": 50,
+        "name": "Small Bank 30",
+        "total_assets": 1705.3735909542102,
+        "is_systemically_important": false,
+        "size_category": "Small"
+      },
+      "financial_metrics": {
+        "capital_adequacy_ratio": 7.522401477760449,
+        "npl_ratio": 17.729047997979706,
+        "liquidity_ratio": 103.77431875906669,
+        "rwa_ratio": 75.04414127281765
+      },
+      "systemic_importance_score": 3.138930091480255,
+      "vulnerability_score": 53.60167469228138,
+      "status": "active"
+    }
+  ],
+  "interbank_network": {
+    "density": 0.23795918367346938,
+    "total_exposure": 254859.1338962449,
+    "largest_exposure": 9811.260008972375,
+    "node_count": 50,
+    "edge_count": 583
+  },
+  "stress_tests": {
+    "active": true,
+    "start_step_index": 12,
+    "end_step_index": 15,
+    "scenario_applied": {
+      "gdp_shock_annual_pct_change": -3.0,
+      "unemployment_shock_abs_change": 2.0,
+      "asset_price_shock_pct_change": -0.1,
+      "duration_steps": 4
+    },
+    "impact_summary": {
+      "peak_sri_during_stress": 0.3827030296751373,
+      "banks_failing_stress_count": 41,
+      "total_capital_shortfall_stress": 24008.000070446695
+    },
+    "macro_var_trajectory_during_stress": {
+      "gdp_growth": [
+        {
+          "date": "2025-05-10",
+          "value": 0.014145875470990443
+        },
+        {
+          "date": "2025-06-09",
+          "value": -2.9858540751911913
+        },
+        {
+          "date": "2025-07-09",
+          "value": -5.982047736806445
+        },
+        {
+          "date": "2025-08-08",
+          "value": -8.979778268275291
+        }
+      ],
+      "unemployment": [
+        {
+          "date": "2025-05-10",
+          "value": 6.9907667604475225
+        },
+        {
+          "date": "2025-06-09",
+          "value": 8.977577113945715
+        },
+        {
+          "date": "2025-07-09",
+          "value": 10.969634932485652
+        },
+        {
+          "date": "2025-08-08",
+          "value": 12.963095912274461
+        }
+      ],
+      "asset_prices": [
+        {
+          "date": "2025-05-10",
+          "value": 90.05845775118219
+        },
+        {
+          "date": "2025-06-09",
+          "value": 80.96197304894427
+        },
+        {
+          "date": "2025-07-09",
+          "value": 72.8375446286942
+        },
+        {
+          "date": "2025-08-08",
+          "value": 65.59226075291646
+        }
+      ]
+    }
+  },
+  "failed_banks_log": [
+    {
+      "bank_id": 7,
+      "date": "2025-07-09",
+      "reason": "CAR fell to 3.82%"
+    },
+    {
+      "bank_id": 8,
+      "date": "2025-07-09",
+      "reason": "CAR fell to 1.96%"
+    },
+    {
+      "bank_id": 14,
+      "date": "2025-07-09",
+      "reason": "CAR fell to 2.84%"
+    },
+    {
+      "bank_id": 23,
+      "date": "2025-07-09",
+      "reason": "CAR fell to 2.20%"
+    },
+    {
+      "bank_id": 24,
+      "date": "2025-07-09",
+      "reason": "CAR fell to 3.89%"
+    },
+    {
+      "bank_id": 26,
+      "date": "2025-07-09",
+      "reason": "CAR fell to 3.95%"
+    },
+    {
+      "bank_id": 28,
+      "date": "2025-07-09",
+      "reason": "CAR fell to 2.90%"
+    },
+    {
+      "bank_id": 30,
+      "date": "2025-07-09",
+      "reason": "CAR fell to 3.81%"
+    },
+    {
+      "bank_id": 31,
+      "date": "2025-07-09",
+      "reason": "CAR fell to 3.42%"
+    },
+    {
+      "bank_id": 33,
+      "date": "2025-07-09",
+      "reason": "CAR fell to 1.55%"
+    },
+    {
+      "bank_id": 36,
+      "date": "2025-07-09",
+      "reason": "CAR fell to 3.32%"
+    },
+    {
+      "bank_id": 38,
+      "date": "2025-07-09",
+      "reason": "CAR fell to 3.57%"
+    },
+    {
+      "bank_id": 39,
+      "date": "2025-07-09",
+      "reason": "CAR fell to 2.74%"
+    },
+    {
+      "bank_id": 44,
+      "date": "2025-07-09",
+      "reason": "CAR fell to 2.36%"
+    },
+    {
+      "bank_id": 48,
+      "date": "2025-07-09",
+      "reason": "CAR fell to 3.69%"
+    },
+    {
+      "bank_id": 2,
+      "date": "2025-07-09",
+      "reason": "Contagion: CAR fell to 2.91% after loss from bank 7"
+    },
+    {
+      "bank_id": 4,
+      "date": "2025-07-09",
+      "reason": "Contagion: CAR fell to 3.55% after loss from bank 7"
+    },
+    {
+      "bank_id": 9,
+      "date": "2025-07-09",
+      "reason": "Contagion: CAR fell to 2.93% after loss from bank 7"
+    },
+    {
+      "bank_id": 11,
+      "date": "2025-07-09",
+      "reason": "Contagion: CAR fell to 1.95% after loss from bank 7"
+    },
+    {
+      "bank_id": 18,
+      "date": "2025-07-09",
+      "reason": "Contagion: CAR fell to 3.76% after loss from bank 7"
+    },
+    {
+      "bank_id": 10,
+      "date": "2025-07-09",
+      "reason": "Contagion: CAR fell to 3.48% after loss from bank 8"
+    },
+    {
+      "bank_id": 1,
+      "date": "2025-07-09",
+      "reason": "Contagion: CAR fell to 3.99% after loss from bank 14"
+    },
+    {
+      "bank_id": 3,
+      "date": "2025-07-09",
+      "reason": "Contagion: CAR fell to 3.87% after loss from bank 39"
+    },
+    {
+      "bank_id": 22,
+      "date": "2025-07-09",
+      "reason": "Contagion: CAR fell to 3.92% after loss from bank 48"
+    },
+    {
+      "bank_id": 13,
+      "date": "2025-08-08",
+      "reason": "CAR fell to 3.05%"
+    },
+    {
+      "bank_id": 17,
+      "date": "2025-08-08",
+      "reason": "CAR fell to 1.75%"
+    },
+    {
+      "bank_id": 21,
+      "date": "2025-08-08",
+      "reason": "CAR fell to 1.98%"
+    },
+    {
+      "bank_id": 25,
+      "date": "2025-08-08",
+      "reason": "CAR fell to 3.28%"
+    },
+    {
+      "bank_id": 32,
+      "date": "2025-08-08",
+      "reason": "CAR fell to 1.78%"
+    },
+    {
+      "bank_id": 35,
+      "date": "2025-08-08",
+      "reason": "CAR fell to 3.36%"
+    },
+    {
+      "bank_id": 37,
+      "date": "2025-08-08",
+      "reason": "CAR fell to 1.84%"
+    },
+    {
+      "bank_id": 41,
+      "date": "2025-08-08",
+      "reason": "CAR fell to 3.16%"
+    },
+    {
+      "bank_id": 42,
+      "date": "2025-08-08",
+      "reason": "CAR fell to 2.56%"
+    },
+    {
+      "bank_id": 43,
+      "date": "2025-08-08",
+      "reason": "CAR fell to 3.29%"
+    },
+    {
+      "bank_id": 45,
+      "date": "2025-08-08",
+      "reason": "CAR fell to 1.08%"
+    },
+    {
+      "bank_id": 46,
+      "date": "2025-08-08",
+      "reason": "CAR fell to 1.62%"
+    },
+    {
+      "bank_id": 47,
+      "date": "2025-08-08",
+      "reason": "CAR fell to 2.95%"
+    },
+    {
+      "bank_id": 49,
+      "date": "2025-08-08",
+      "reason": "CAR fell to 2.19%"
+    },
+    {
+      "bank_id": 15,
+      "date": "2025-08-08",
+      "reason": "Contagion: CAR fell to 3.82% after loss from bank 13"
+    }
+  ]
+}

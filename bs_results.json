@@ -1,0 +1,5912 @@
+{
+  "simulation_period": {
+    "start_date": "2024-05-15",
+    "end_date": "2027-05-15",
+    "time_step": "monthly"
+  },
+  "system_health": {
+    "time_series": [
+      {
+        "date": "2024-05-15",
+        "health_index": 65.72302516073738
+      },
+      {
+        "date": "2024-06-14",
+        "health_index": 65.63480083017468
+      },
+      {
+        "date": "2024-07-14",
+        "health_index": 65.37963095516862
+      },
+      {
+        "date": "2024-08-13",
+        "health_index": 65.37963095516862
+      },
+      {
+        "date": "2024-09-12",
+        "health_index": 64.71787465030498
+      },
+      {
+        "date": "2024-10-12",
+        "health_index": 63.38462242703786
+      },
+      {
+        "date": "2024-11-11",
+        "health_index": 63.0884203142303
+      },
+      {
+        "date": "2024-12-11",
+        "health_index": 59.53836516849628
+      },
+      {
+        "date": "2025-01-10",
+        "health_index": 57.36022911663132
+      },
+      {
+        "date": "2025-02-09",
+        "health_index": 59.15022787067307
+      },
+      {
+        "date": "2025-03-11",
+        "health_index": 59.15022787067307
+      },
+      {
+        "date": "2025-04-10",
+        "health_index": 58.542474171425916
+      },
+      {
+        "date": "2025-05-10",
+        "health_index": 58.66250699320656
+      },
+      {
+        "date": "2025-06-09",
+        "health_index": 58.755233227410095
+      },
+      {
+        "date": "2025-07-09",
+        "health_index": 59.83110258555419
+      },
+      {
+        "date": "2025-08-08",
+        "health_index": 59.83110258555419
+      },
+      {
+        "date": "2025-09-07",
+        "health_index": 59.75476867808106
+      },
+      {
+        "date": "2025-10-07",
+        "health_index": 60.70528897571079
+      },
+      {
+        "date": "2025-11-06",
+        "health_index": 60.1540396864481
+      },
+      {
+        "date": "2025-12-06",
+        "health_index": 60.40544736000866
+      },
+      {
+        "date": "2026-01-05",
+        "health_index": 60.484617490467365
+      },
+      {
+        "date": "2026-02-04",
+        "health_index": 60.51874535585809
+      },
+      {
+        "date": "2026-03-06",
+        "health_index": 60.51874535585809
+      },
+      {
+        "date": "2026-04-05",
+        "health_index": 61.06949883318049
+      },
+      {
+        "date": "2026-05-05",
+        "health_index": 61.111843622703326
+      },
+      {
+        "date": "2026-06-04",
+        "health_index": 62.30179766340384
+      },
+      {
+        "date": "2026-07-04",
+        "health_index": 61.731485484825996
+      },
+      {
+        "date": "2026-08-03",
+        "health_index": 64.1501299636443
+      },
+      {
+        "date": "2026-09-02",
+        "health_index": 64.25394207087541
+      },
+      {
+        "date": "2026-10-02",
+        "health_index": 64.25394207087541
+      },
+      {
+        "date": "2026-11-01",
+        "health_index": 64.28642950250772
+      },
+      {
+        "date": "2026-12-01",
+        "health_index": 64.26258654744358
+      },
+      {
+        "date": "2026-12-31",
+        "health_index": 64.38134174313166
+      },
+      {
+        "date": "2027-01-30",
+        "health_index": 64.38134174313166
+      },
+      {
+        "date": "2027-03-01",
+        "health_index": 63.39497598469896
+      },
+      {
+        "date": "2027-03-31",
+        "health_index": 63.62691470742807
+      },
+      {
+        "date": "2027-04-30",
+        "health_index": 64.13218356571868
+      }
+    ],
+    "current": 64.13218356571868,
+    "trend": -1.590841595018702
+  },
+  "banks": [
+    {
+      "id": 1,
+      "name": "Commercial Bank 1",
+      "type": "BankType.COMMERCIAL",
+      "total_assets": 4846.998864058117,
+      "is_systemic": false,
+      "current_camels": 2.2,
+      "latest_exam_date": "2027-03-31",
+      "current_metrics": {
+        "capital_adequacy_ratio": 12.075493147990077,
+        "npl_ratio": 1.1456167130978296,
+        "return_on_assets": 1.440251848612002,
+        "liquidity_ratio": 25.904690075823485
+      },
+      "risk_profile": 29
+    },
+    {
+      "id": 2,
+      "name": "Commercial Bank 2",
+      "type": "BankType.COMMERCIAL",
+      "total_assets": 1199.5185083286492,
+      "is_systemic": false,
+      "current_camels": 3.1,
+      "latest_exam_date": "2026-06-04",
+      "current_metrics": {
+        "capital_adequacy_ratio": 10.846750581769086,
+        "npl_ratio": 0.8815489798516334,
+        "return_on_assets": 1.1466462220937428,
+        "liquidity_ratio": 21.54059492961918
+      },
+      "risk_profile": 32
+    },
+    {
+      "id": 3,
+      "name": "Commercial Bank 3",
+      "type": "BankType.COMMERCIAL",
+      "total_assets": 44348.965156090824,
+      "is_systemic": true,
+      "current_camels": 2.95,
+      "latest_exam_date": "2027-03-01",
+      "current_metrics": {
+        "capital_adequacy_ratio": 13.517295058238707,
+        "npl_ratio": 0.5702507096972984,
+        "return_on_assets": 1.2898819056193482,
+        "liquidity_ratio": 24.710771621102317
+      },
+      "risk_profile": 44
+    },
+    {
+      "id": 4,
+      "name": "Commercial Bank 4",
+      "type": "BankType.COMMERCIAL",
+      "total_assets": 4915.349708630174,
+      "is_systemic": false,
+      "current_camels": 2.35,
+      "latest_exam_date": "2026-09-02",
+      "current_metrics": {
+        "capital_adequacy_ratio": 9.976790671575921,
+        "npl_ratio": 2.1097187454672683,
+        "return_on_assets": 1.0493745115955873,
+        "liquidity_ratio": 28.875389980287245
+      },
+      "risk_profile": 33
+    },
+    {
+      "id": 5,
+      "name": "Commercial Bank 5",
+      "type": "BankType.COMMERCIAL",
+      "total_assets": 3271.2962388064057,
+      "is_systemic": false,
+      "current_camels": 2.8,
+      "latest_exam_date": "2027-01-30",
+      "current_metrics": {
+        "capital_adequacy_ratio": 11.396273421269676,
+        "npl_ratio": 1.15385622997101,
+        "return_on_assets": 1.239872661508942,
+        "liquidity_ratio": 20.822861256646235
+      },
+      "risk_profile": 30
+    },
+    {
+      "id": 6,
+      "name": "Commercial Bank 6",
+      "type": "BankType.COMMERCIAL",
+      "total_assets": 58158.88802426648,
+      "is_systemic": true,
+      "current_camels": 2.45,
+      "latest_exam_date": "2027-04-30",
+      "current_metrics": {
+        "capital_adequacy_ratio": 11.94821730744324,
+        "npl_ratio": 0.8038322877610103,
+        "return_on_assets": 1.5348157269347154,
+        "liquidity_ratio": 21.082387117579636
+      },
+      "risk_profile": 35
+    },
+    {
+      "id": 7,
+      "name": "Commercial Bank 7",
+      "type": "BankType.COMMERCIAL",
+      "total_assets": 19601.189480042183,
+      "is_systemic": false,
+      "current_camels": 3.15,
+      "latest_exam_date": "2026-12-01",
+      "current_metrics": {
+        "capital_adequacy_ratio": 11.647389192389701,
+        "npl_ratio": 1.4138254324126827,
+        "return_on_assets": 1.136219272765665,
+        "liquidity_ratio": 19.39056474004808
+      },
+      "risk_profile": 37
+    },
+    {
+      "id": 8,
+      "name": "Commercial Bank 8",
+      "type": "BankType.COMMERCIAL",
+      "total_assets": 93135.90029127897,
+      "is_systemic": true,
+      "current_camels": 2.85,
+      "latest_exam_date": "2027-03-01",
+      "current_metrics": {
+        "capital_adequacy_ratio": 11.57229343022635,
+        "npl_ratio": 0.7078164762612901,
+        "return_on_assets": 1.1700122864379991,
+        "liquidity_ratio": 25.75798919395347
+      },
+      "risk_profile": 37
+    },
+    {
+      "id": 9,
+      "name": "Commercial Bank 9",
+      "type": "BankType.COMMERCIAL",
+      "total_assets": 5360.245056582669,
+      "is_systemic": false,
+      "current_camels": 2.9,
+      "latest_exam_date": "2027-03-31",
+      "current_metrics": {
+        "capital_adequacy_ratio": 11.240664767895598,
+        "npl_ratio": 1.4202208120509157,
+        "return_on_assets": 1.3129569534026757,
+        "liquidity_ratio": 21.292921419803683
+      },
+      "risk_profile": 36
+    },
+    {
+      "id": 10,
+      "name": "Commercial Bank 10",
+      "type": "BankType.COMMERCIAL",
+      "total_assets": 11579.2366936651,
+      "is_systemic": false,
+      "current_camels": 2.65,
+      "latest_exam_date": "2026-07-04",
+      "current_metrics": {
+        "capital_adequacy_ratio": 11.926568074081219,
+        "npl_ratio": 1.451205925628752,
+        "return_on_assets": 1.210852940281027,
+        "liquidity_ratio": 24.173471715746423
+      },
+      "risk_profile": 32
+    },
+    {
+      "id": 11,
+      "name": "Commercial Bank 11",
+      "type": "BankType.COMMERCIAL",
+      "total_assets": 3899.868069293556,
+      "is_systemic": false,
+      "current_camels": 2.85,
+      "latest_exam_date": "2027-03-31",
+      "current_metrics": {
+        "capital_adequacy_ratio": 11.612498616031793,
+        "npl_ratio": 1.2419506143096866,
+        "return_on_assets": 1.0887351093971922,
+        "liquidity_ratio": 23.6655561290351
+      },
+      "risk_profile": 26
+    },
+    {
+      "id": 12,
+      "name": "Commercial Bank 12",
+      "type": "BankType.COMMERCIAL",
+      "total_assets": 2644.401571821865,
+      "is_systemic": false,
+      "current_camels": 2.7,
+      "latest_exam_date": "2026-12-01",
+      "current_metrics": {
+        "capital_adequacy_ratio": 13.364977367930187,
+        "npl_ratio": 0.6578147009580984,
+        "return_on_assets": 1.475904789040197,
+        "liquidity_ratio": 22.92779338685312
+      },
+      "risk_profile": 26
+    },
+    {
+      "id": 13,
+      "name": "Commercial Bank 13",
+      "type": "BankType.COMMERCIAL",
+      "total_assets": 91111.27927124752,
+      "is_systemic": true,
+      "current_camels": 2.35,
+      "latest_exam_date": "2027-03-31",
+      "current_metrics": {
+        "capital_adequacy_ratio": 11.923447557484726,
+        "npl_ratio": 0.8087614604087119,
+        "return_on_assets": 1.6139322427312672,
+        "liquidity_ratio": 28.04752521896914
+      },
+      "risk_profile": 40
+    },
+    {
+      "id": 14,
+      "name": "Commercial Bank 14",
+      "type": "BankType.COMMERCIAL",
+      "total_assets": 2844.4420911091447,
+      "is_systemic": false,
+      "current_camels": 2.75,
+      "latest_exam_date": "2026-09-02",
+      "current_metrics": {
+        "capital_adequacy_ratio": 11.766833584056586,
+        "npl_ratio": 0.7385971697446836,
+        "return_on_assets": 1.3233189460107386,
+        "liquidity_ratio": 20.01410634540191
+      },
+      "risk_profile": 25
+    },
+    {
+      "id": 15,
+      "name": "Commercial Bank 15",
+      "type": "BankType.COMMERCIAL",
+      "total_assets": 5087.052715680072,
+      "is_systemic": false,
+      "current_camels": 3.35,
+      "latest_exam_date": "2027-04-30",
+      "current_metrics": {
+        "capital_adequacy_ratio": 11.46540136934231,
+        "npl_ratio": 1.2785763049245735,
+        "return_on_assets": 1.2048423237347683,
+        "liquidity_ratio": 15.194391716701862
+      },
+      "risk_profile": 32
+    },
+    {
+      "id": 16,
+      "name": "Specialized Bank 1",
+      "type": "BankType.SPECIALIZED",
+      "total_assets": 19642.146560939145,
+      "is_systemic": false,
+      "current_camels": 2.65,
+      "latest_exam_date": "2026-09-02",
+      "current_metrics": {
+        "capital_adequacy_ratio": 10.480299034726842,
+        "npl_ratio": 2.761943284479201,
+        "return_on_assets": 0.9260006745665761,
+        "liquidity_ratio": 22.985492025946442
+      },
+      "risk_profile": 38
+    },
+    {
+      "id": 17,
+      "name": "Specialized Bank 2",
+      "type": "BankType.SPECIALIZED",
+      "total_assets": 89782.30635319366,
+      "is_systemic": true,
+      "current_camels": 2.7,
+      "latest_exam_date": "2027-04-30",
+      "current_metrics": {
+        "capital_adequacy_ratio": 12.483556493225409,
+        "npl_ratio": 0.7459837162700863,
+        "return_on_assets": 1.4163648402867242,
+        "liquidity_ratio": 22.968119208133555
+      },
+      "risk_profile": 39
+    },
+    {
+      "id": 18,
+      "name": "Specialized Bank 3",
+      "type": "BankType.SPECIALIZED",
+      "total_assets": 13296.165974286641,
+      "is_systemic": false,
+      "current_camels": 2.85,
+      "latest_exam_date": "2026-06-04",
+      "current_metrics": {
+        "capital_adequacy_ratio": 10.349981186516754,
+        "npl_ratio": 2.983882909955603,
+        "return_on_assets": 1.1518448153238254,
+        "liquidity_ratio": 22.13068099212315
+      },
+      "risk_profile": 36
+    },
+    {
+      "id": 19,
+      "name": "Specialized Bank 4",
+      "type": "BankType.SPECIALIZED",
+      "total_assets": 2694.4616939284497,
+      "is_systemic": false,
+      "current_camels": 2.85,
+      "latest_exam_date": "2026-07-04",
+      "current_metrics": {
+        "capital_adequacy_ratio": 10.876778818517275,
+        "npl_ratio": 1.6543740725966862,
+        "return_on_assets": 1.193593376639966,
+        "liquidity_ratio": 25.83295717550479
+      },
+      "risk_profile": 32
+    },
+    {
+      "id": 20,
+      "name": "Specialized Bank 5",
+      "type": "BankType.SPECIALIZED",
+      "total_assets": 92000.8005906822,
+      "is_systemic": true,
+      "current_camels": 2.8,
+      "latest_exam_date": "2027-04-30",
+      "current_metrics": {
+        "capital_adequacy_ratio": 12.340277845646327,
+        "npl_ratio": 1.0280992606912314,
+        "return_on_assets": 1.3279023849483664,
+        "liquidity_ratio": 18.04704973331462
+      },
+      "risk_profile": 45
+    },
+    {
+      "id": 21,
+      "name": "Islamic Bank 1",
+      "type": "BankType.ISLAMIC",
+      "total_assets": 4704.440757345694,
+      "is_systemic": false,
+      "current_camels": 2.45,
+      "latest_exam_date": "2026-06-04",
+      "current_metrics": {
+        "capital_adequacy_ratio": 10.357428423097835,
+        "npl_ratio": 1.9613221983823828,
+        "return_on_assets": 1.169597692466968,
+        "liquidity_ratio": 24.709652528426453
+      },
+      "risk_profile": 34
+    },
+    {
+      "id": 22,
+      "name": "Islamic Bank 2",
+      "type": "BankType.ISLAMIC",
+      "total_assets": 1737.1213998874127,
+      "is_systemic": false,
+      "current_camels": 3.15,
+      "latest_exam_date": "2027-03-31",
+      "current_metrics": {
+        "capital_adequacy_ratio": 10.630394467269081,
+        "npl_ratio": 2.403526741579644,
+        "return_on_assets": 0.9316038349408431,
+        "liquidity_ratio": 25.98328259856815
+      },
+      "risk_profile": 28
+    },
+    {
+      "id": 23,
+      "name": "Islamic Bank 3",
+      "type": "BankType.ISLAMIC",
+      "total_assets": 79873.56763712413,
+      "is_systemic": true,
+      "current_camels": 3.1,
+      "latest_exam_date": "2026-12-31",
+      "current_metrics": {
+        "capital_adequacy_ratio": 11.79062855051147,
+        "npl_ratio": 1.5298582024566452,
+        "return_on_assets": 1.407102183214902,
+        "liquidity_ratio": 21.678106597074805
+      },
+      "risk_profile": 41
+    },
+    {
+      "id": 24,
+      "name": "Islamic Bank 4",
+      "type": "BankType.ISLAMIC",
+      "total_assets": 11243.17468260253,
+      "is_systemic": false,
+      "current_camels": 2.95,
+      "latest_exam_date": "2026-12-01",
+      "current_metrics": {
+        "capital_adequacy_ratio": 12.223222686295587,
+        "npl_ratio": 0.9868327663415872,
+        "return_on_assets": 1.3462174921701966,
+        "liquidity_ratio": 21.033038953175364
+      },
+      "risk_profile": 31
+    },
+    {
+      "id": 25,
+      "name": "Islamic Bank 5",
+      "type": "BankType.ISLAMIC",
+      "total_assets": 11082.041362379003,
+      "is_systemic": false,
+      "current_camels": 2.75,
+      "latest_exam_date": "2026-11-01",
+      "current_metrics": {
+        "capital_adequacy_ratio": 11.137881872454429,
+        "npl_ratio": 1.3696211018814468,
+        "return_on_assets": 1.3718617386858516,
+        "liquidity_ratio": 24.108563854223615
+      },
+      "risk_profile": 40
+    },
+    {
+      "id": 26,
+      "name": "Islamic Bank 6",
+      "type": "BankType.ISLAMIC",
+      "total_assets": 18971.95642258386,
+      "is_systemic": false,
+      "current_camels": 2.9,
+      "latest_exam_date": "2026-12-31",
+      "current_metrics": {
+        "capital_adequacy_ratio": 12.059553955741464,
+        "npl_ratio": 1.9938645980036211,
+        "return_on_assets": 1.2212923782461789,
+        "liquidity_ratio": 19.68148936059413
+      },
+      "risk_profile": 31
+    },
+    {
+      "id": 27,
+      "name": "Islamic Bank 7",
+      "type": "BankType.ISLAMIC",
+      "total_assets": 1677.8176286950854,
+      "is_systemic": false,
+      "current_camels": 3.45,
+      "latest_exam_date": "2027-04-30",
+      "current_metrics": {
+        "capital_adequacy_ratio": 11.534238903386106,
+        "npl_ratio": 2.4486928019803624,
+        "return_on_assets": 1.2077193425964374,
+        "liquidity_ratio": 16.527270006904438
+      },
+      "risk_profile": 33
+    },
+    {
+      "id": 28,
+      "name": "Islamic Bank 8",
+      "type": "BankType.ISLAMIC",
+      "total_assets": 3700.832625886953,
+      "is_systemic": false,
+      "current_camels": 2.9,
+      "latest_exam_date": "2026-09-02",
+      "current_metrics": {
+        "capital_adequacy_ratio": 10.903878373284885,
+        "npl_ratio": 0.7356934716384048,
+        "return_on_assets": 1.265344847176396,
+        "liquidity_ratio": 22.069486502029495
+      },
+      "risk_profile": 25
+    },
+    {
+      "id": 29,
+      "name": "Foreign Bank 1",
+      "type": "BankType.FOREIGN",
+      "total_assets": 15231.452765852318,
+      "is_systemic": false,
+      "current_camels": 2.7,
+      "latest_exam_date": "2026-07-04",
+      "current_metrics": {
+        "capital_adequacy_ratio": 11.484859963057191,
+        "npl_ratio": 1.5968524885271846,
+        "return_on_assets": 1.1290298011373825,
+        "liquidity_ratio": 24.925382189252403
+      },
+      "risk_profile": 34
+    },
+    {
+      "id": 30,
+      "name": "Foreign Bank 2",
+      "type": "BankType.FOREIGN",
+      "total_assets": 18586.683654950142,
+      "is_systemic": false,
+      "current_camels": 2.8,
+      "latest_exam_date": "2026-09-02",
+      "current_metrics": {
+        "capital_adequacy_ratio": 11.61087044925336,
+        "npl_ratio": 1.0856751294479081,
+        "return_on_assets": 1.4396895634827842,
+        "liquidity_ratio": 28.460465988280877
+      },
+      "risk_profile": 40
+    },
+    {
+      "id": 31,
+      "name": "Foreign Bank 3",
+      "type": "BankType.FOREIGN",
+      "total_assets": 19465.689986190908,
+      "is_systemic": false,
+      "current_camels": 2.85,
+      "latest_exam_date": "2027-03-31",
+      "current_metrics": {
+        "capital_adequacy_ratio": 11.808009473915671,
+        "npl_ratio": 1.1241849196777884,
+        "return_on_assets": 1.3805005125838636,
+        "liquidity_ratio": 22.403022528198626
+      },
+      "risk_profile": 34
+    },
+    {
+      "id": 32,
+      "name": "Foreign Bank 4",
+      "type": "BankType.FOREIGN",
+      "total_assets": 63070.210092482914,
+      "is_systemic": true,
+      "current_camels": 3.05,
+      "latest_exam_date": "2026-12-31",
+      "current_metrics": {
+        "capital_adequacy_ratio": 12.282024261718416,
+        "npl_ratio": 0.4877244580632167,
+        "return_on_assets": 1.6859399223117089,
+        "liquidity_ratio": 17.32083444630618
+      },
+      "risk_profile": 37
+    },
+    {
+      "id": 33,
+      "name": "Foreign Bank 5",
+      "type": "BankType.FOREIGN",
+      "total_assets": 34002.43848705103,
+      "is_systemic": true,
+      "current_camels": 2.8,
+      "latest_exam_date": "2027-04-30",
+      "current_metrics": {
+        "capital_adequacy_ratio": 12.97790617290071,
+        "npl_ratio": 0.9447980322846401,
+        "return_on_assets": 1.1301901223048918,
+        "liquidity_ratio": 20.998595792681005
+      },
+      "risk_profile": 42
+    },
+    {
+      "id": 34,
+      "name": "Foreign Bank 6",
+      "type": "BankType.FOREIGN",
+      "total_assets": 4193.2729392245,
+      "is_systemic": false,
+      "current_camels": 2.6,
+      "latest_exam_date": "2026-09-02",
+      "current_metrics": {
+        "capital_adequacy_ratio": 11.140686427530103,
+        "npl_ratio": 1.2919541725573642,
+        "return_on_assets": 1.1980734143885117,
+        "liquidity_ratio": 21.750552221450906
+      },
+      "risk_profile": 25
+    },
+    {
+      "id": 35,
+      "name": "Foreign Bank 7",
+      "type": "BankType.FOREIGN",
+      "total_assets": 7785.134793120475,
+      "is_systemic": false,
+      "current_camels": 2.8,
+      "latest_exam_date": "2026-11-01",
+      "current_metrics": {
+        "capital_adequacy_ratio": 11.580826413223685,
+        "npl_ratio": 0.648168825683518,
+        "return_on_assets": 1.237895376435548,
+        "liquidity_ratio": 19.549295071140474
+      },
+      "risk_profile": 33
+    },
+    {
+      "id": 36,
+      "name": "Development Bank 1",
+      "type": "BankType.DEVELOPMENT",
+      "total_assets": 68880.75984354758,
+      "is_systemic": true,
+      "current_camels": 2.6,
+      "latest_exam_date": "2027-03-01",
+      "current_metrics": {
+        "capital_adequacy_ratio": 12.073744088200499,
+        "npl_ratio": 0.6621293802020173,
+        "return_on_assets": 1.5175571681540274,
+        "liquidity_ratio": 25.010879776608114
+      },
+      "risk_profile": 44
+    },
+    {
+      "id": 37,
+      "name": "Development Bank 2",
+      "type": "BankType.DEVELOPMENT",
+      "total_assets": 12815.609813386862,
+      "is_systemic": false,
+      "current_camels": 3.1,
+      "latest_exam_date": "2027-03-31",
+      "current_metrics": {
+        "capital_adequacy_ratio": 11.490897076528418,
+        "npl_ratio": 2.3198329566942575,
+        "return_on_assets": 1.2523275477058422,
+        "liquidity_ratio": 17.53961965586378
+      },
+      "risk_profile": 32
+    },
+    {
+      "id": 38,
+      "name": "Development Bank 3",
+      "type": "BankType.DEVELOPMENT",
+      "total_assets": 2671.1375959549796,
+      "is_systemic": false,
+      "current_camels": 3.2,
+      "latest_exam_date": "2026-09-02",
+      "current_metrics": {
+        "capital_adequacy_ratio": 11.679270467854533,
+        "npl_ratio": 1.132978943091992,
+        "return_on_assets": 1.3466608952403003,
+        "liquidity_ratio": 19.919617500688226
+      },
+      "risk_profile": 25
+    },
+    {
+      "id": 39,
+      "name": "State_Owned Bank 1",
+      "type": "BankType.STATE_OWNED",
+      "total_assets": 7008.779356610054,
+      "is_systemic": false,
+      "current_camels": 2.4,
+      "latest_exam_date": "2026-09-02",
+      "current_metrics": {
+        "capital_adequacy_ratio": 11.933657436451174,
+        "npl_ratio": 1.763573464391814,
+        "return_on_assets": 1.0656725835264134,
+        "liquidity_ratio": 25.223085949651292
+      },
+      "risk_profile": 35
+    },
+    {
+      "id": 40,
+      "name": "State_Owned Bank 2",
+      "type": "BankType.STATE_OWNED",
+      "total_assets": 2418.4873871013265,
+      "is_systemic": false,
+      "current_camels": 2.75,
+      "latest_exam_date": "2026-06-04",
+      "current_metrics": {
+        "capital_adequacy_ratio": 11.793048039041949,
+        "npl_ratio": 1.8415211215733596,
+        "return_on_assets": 1.1131147563817545,
+        "liquidity_ratio": 23.49248669275878
+      },
+      "risk_profile": 35
+    }
+  ],
+  "examinations": [
+    {
+      "bank_id": 6,
+      "bank_name": "Commercial Bank 6",
+      "examination_date": "2024-05-15",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 3.1,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 3,
+        "management_rating": 2,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 2,
+        "composite_rating": 3.1,
+        "rating_date": "2024-05-15"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "Concentrations in commercial real estate lending",
+        "Insufficient loan loss reserves"
+      ]
+    },
+    {
+      "bank_id": 6,
+      "bank_name": "Commercial Bank 6",
+      "examination_date": "2025-02-09",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 2.85,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 2,
+        "management_rating": 2,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 2,
+        "composite_rating": 2.85,
+        "rating_date": "2025-02-09"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "Weaknesses in IT security controls",
+        "Inadequate business continuity planning"
+      ]
+    },
+    {
+      "bank_id": 6,
+      "bank_name": "Commercial Bank 6",
+      "examination_date": "2025-11-06",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 3.0,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 2,
+        "management_rating": 2,
+        "earnings_rating": 3,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 2,
+        "composite_rating": 3.0,
+        "rating_date": "2025-11-06"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "Weaknesses in IT security controls",
+        "Weaknesses in internal audit function"
+      ]
+    },
+    {
+      "bank_id": 6,
+      "bank_name": "Commercial Bank 6",
+      "examination_date": "2026-08-03",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 2.6,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 1,
+        "management_rating": 2,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 2,
+        "composite_rating": 2.6,
+        "rating_date": "2026-08-03"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "Documentation deficiencies in loan files",
+        "Weaknesses in IT security controls"
+      ]
+    },
+    {
+      "bank_id": 6,
+      "bank_name": "Commercial Bank 6",
+      "examination_date": "2027-04-30",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 2.45,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 1,
+        "management_rating": 2,
+        "earnings_rating": 1,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 2,
+        "composite_rating": 2.45,
+        "rating_date": "2027-04-30"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "Weaknesses in internal audit function"
+      ]
+    },
+    {
+      "bank_id": 15,
+      "bank_name": "Commercial Bank 15",
+      "examination_date": "2024-05-15",
+      "previous_composite_grade": 5,
+      "new_composite_grade": 3,
+      "new_composite_score": 4.75,
+      "component_ratings": {
+        "capital_rating": 5,
+        "asset_rating": 4,
+        "management_rating": 5,
+        "earnings_rating": 5,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 5,
+        "composite_rating": 4.75,
+        "rating_date": "2024-05-15"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "High level of non-performing assets",
+        "Weak management oversight and risk controls",
+        "Insufficient earnings to support operations and maintain capital",
+        "Inadequate liquidity management and funding sources",
+        "High sensitivity to market risk",
+        "Insufficient loan loss reserves",
+        "Deficiencies in anti-money laundering program",
+        "Concentrations in commercial real estate lending",
+        "Documentation deficiencies in loan files"
+      ]
+    },
+    {
+      "bank_id": 15,
+      "bank_name": "Commercial Bank 15",
+      "examination_date": "2025-05-10",
+      "previous_composite_grade": 5,
+      "new_composite_grade": 3,
+      "new_composite_score": 3.75,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 2,
+        "management_rating": 5,
+        "earnings_rating": 3,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 5,
+        "composite_rating": 3.75,
+        "rating_date": "2025-05-10"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Weak management oversight and risk controls",
+        "Inadequate liquidity management and funding sources",
+        "High sensitivity to market risk",
+        "Inadequate business continuity planning",
+        "Inadequate compliance with regulatory reporting requirements",
+        "Insufficient loan loss reserves"
+      ]
+    },
+    {
+      "bank_id": 15,
+      "bank_name": "Commercial Bank 15",
+      "examination_date": "2026-05-05",
+      "previous_composite_grade": 4,
+      "new_composite_grade": 3,
+      "new_composite_score": 3.35,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 1,
+        "management_rating": 5,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 5,
+        "composite_rating": 3.35,
+        "rating_date": "2026-05-05"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Weak management oversight and risk controls",
+        "Inadequate liquidity management and funding sources",
+        "High sensitivity to market risk",
+        "Weaknesses in internal audit function",
+        "Concentrations in commercial real estate lending"
+      ]
+    },
+    {
+      "bank_id": 15,
+      "bank_name": "Commercial Bank 15",
+      "examination_date": "2027-04-30",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 3.35,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 1,
+        "management_rating": 5,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 5,
+        "composite_rating": 3.35,
+        "rating_date": "2027-04-30"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Weak management oversight and risk controls",
+        "Inadequate liquidity management and funding sources",
+        "High sensitivity to market risk",
+        "Non-compliance with consumer protection regulations",
+        "Weaknesses in internal audit function"
+      ]
+    },
+    {
+      "bank_id": 17,
+      "bank_name": "Specialized Bank 2",
+      "examination_date": "2024-05-15",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 3.2,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 3,
+        "management_rating": 2,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 3,
+        "composite_rating": 3.2,
+        "rating_date": "2024-05-15"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "Concentrations in commercial real estate lending",
+        "Non-compliance with consumer protection regulations"
+      ]
+    },
+    {
+      "bank_id": 17,
+      "bank_name": "Specialized Bank 2",
+      "examination_date": "2025-02-09",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 2.95,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 2,
+        "management_rating": 2,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 3,
+        "composite_rating": 2.95,
+        "rating_date": "2025-02-09"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "Inadequate business continuity planning",
+        "Inadequate compliance with regulatory reporting requirements"
+      ]
+    },
+    {
+      "bank_id": 17,
+      "bank_name": "Specialized Bank 2",
+      "examination_date": "2025-11-06",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 3.3,
+      "component_ratings": {
+        "capital_rating": 5,
+        "asset_rating": 2,
+        "management_rating": 2,
+        "earnings_rating": 3,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 3,
+        "composite_rating": 3.3,
+        "rating_date": "2025-11-06"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "Documentation deficiencies in loan files",
+        "Inadequate business continuity planning"
+      ]
+    },
+    {
+      "bank_id": 17,
+      "bank_name": "Specialized Bank 2",
+      "examination_date": "2026-08-03",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 2.7,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 1,
+        "management_rating": 2,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 3,
+        "composite_rating": 2.7,
+        "rating_date": "2026-08-03"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "Deficiencies in anti-money laundering program",
+        "Interest rate risk measurement deficiencies"
+      ]
+    },
+    {
+      "bank_id": 17,
+      "bank_name": "Specialized Bank 2",
+      "examination_date": "2027-04-30",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 2.7,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 1,
+        "management_rating": 2,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 3,
+        "composite_rating": 2.7,
+        "rating_date": "2027-04-30"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "Weaknesses in internal audit function",
+        "Interest rate risk measurement deficiencies"
+      ]
+    },
+    {
+      "bank_id": 20,
+      "bank_name": "Specialized Bank 5",
+      "examination_date": "2024-05-15",
+      "previous_composite_grade": 4,
+      "new_composite_grade": 3,
+      "new_composite_score": 4.05,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 4,
+        "management_rating": 4,
+        "earnings_rating": 4,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 3,
+        "composite_rating": 4.05,
+        "rating_date": "2024-05-15"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "High level of non-performing assets",
+        "Weak management oversight and risk controls",
+        "Insufficient earnings to support operations and maintain capital",
+        "Inadequate liquidity management and funding sources",
+        "Deficiencies in anti-money laundering program",
+        "Inadequate compliance with regulatory reporting requirements",
+        "Weaknesses in IT security controls"
+      ]
+    },
+    {
+      "bank_id": 20,
+      "bank_name": "Specialized Bank 5",
+      "examination_date": "2025-02-09",
+      "previous_composite_grade": 4,
+      "new_composite_grade": 3,
+      "new_composite_score": 3.4,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 2,
+        "management_rating": 4,
+        "earnings_rating": 3,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 3,
+        "composite_rating": 3.4,
+        "rating_date": "2025-02-09"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Weak management oversight and risk controls",
+        "Inadequate liquidity management and funding sources",
+        "Interest rate risk measurement deficiencies",
+        "Weaknesses in internal audit function"
+      ]
+    },
+    {
+      "bank_id": 20,
+      "bank_name": "Specialized Bank 5",
+      "examination_date": "2025-11-06",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 3.25,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 2,
+        "management_rating": 4,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 3,
+        "composite_rating": 3.25,
+        "rating_date": "2025-11-06"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Weak management oversight and risk controls",
+        "Inadequate liquidity management and funding sources",
+        "Interest rate risk measurement deficiencies",
+        "Weaknesses in internal audit function"
+      ]
+    },
+    {
+      "bank_id": 20,
+      "bank_name": "Specialized Bank 5",
+      "examination_date": "2026-08-03",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 2.85,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 1,
+        "management_rating": 4,
+        "earnings_rating": 1,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 3,
+        "composite_rating": 2.85,
+        "rating_date": "2026-08-03"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Weak management oversight and risk controls",
+        "Inadequate liquidity management and funding sources",
+        "Documentation deficiencies in loan files",
+        "Deficiencies in anti-money laundering program"
+      ]
+    },
+    {
+      "bank_id": 20,
+      "bank_name": "Specialized Bank 5",
+      "examination_date": "2027-04-30",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 2.8,
+      "component_ratings": {
+        "capital_rating": 3,
+        "asset_rating": 1,
+        "management_rating": 4,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 3,
+        "composite_rating": 2.8,
+        "rating_date": "2027-04-30"
+      },
+      "findings": [
+        "Weak management oversight and risk controls",
+        "Inadequate liquidity management and funding sources",
+        "Inadequate compliance with regulatory reporting requirements",
+        "Interest rate risk measurement deficiencies"
+      ]
+    },
+    {
+      "bank_id": 27,
+      "bank_name": "Islamic Bank 7",
+      "examination_date": "2024-05-15",
+      "previous_composite_grade": 5,
+      "new_composite_grade": 3,
+      "new_composite_score": 4.6,
+      "component_ratings": {
+        "capital_rating": 5,
+        "asset_rating": 4,
+        "management_rating": 4,
+        "earnings_rating": 5,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 5,
+        "composite_rating": 4.6,
+        "rating_date": "2024-05-15"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "High level of non-performing assets",
+        "Weak management oversight and risk controls",
+        "Insufficient earnings to support operations and maintain capital",
+        "Inadequate liquidity management and funding sources",
+        "High sensitivity to market risk",
+        "Concentrations in commercial real estate lending",
+        "Weaknesses in internal audit function",
+        "Insufficient loan loss reserves",
+        "Inadequate business continuity planning"
+      ]
+    },
+    {
+      "bank_id": 27,
+      "bank_name": "Islamic Bank 7",
+      "examination_date": "2025-05-10",
+      "previous_composite_grade": 5,
+      "new_composite_grade": 3,
+      "new_composite_score": 3.85,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 3,
+        "management_rating": 4,
+        "earnings_rating": 3,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 5,
+        "composite_rating": 3.85,
+        "rating_date": "2025-05-10"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Weak management oversight and risk controls",
+        "Inadequate liquidity management and funding sources",
+        "High sensitivity to market risk",
+        "Inadequate business continuity planning",
+        "Non-compliance with consumer protection regulations",
+        "Documentation deficiencies in loan files"
+      ]
+    },
+    {
+      "bank_id": 27,
+      "bank_name": "Islamic Bank 7",
+      "examination_date": "2026-05-05",
+      "previous_composite_grade": 4,
+      "new_composite_grade": 3,
+      "new_composite_score": 3.45,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 2,
+        "management_rating": 4,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 5,
+        "composite_rating": 3.45,
+        "rating_date": "2026-05-05"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Weak management oversight and risk controls",
+        "Inadequate liquidity management and funding sources",
+        "High sensitivity to market risk",
+        "Weaknesses in internal audit function",
+        "Documentation deficiencies in loan files"
+      ]
+    },
+    {
+      "bank_id": 27,
+      "bank_name": "Islamic Bank 7",
+      "examination_date": "2027-04-30",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 3.45,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 2,
+        "management_rating": 4,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 5,
+        "composite_rating": 3.45,
+        "rating_date": "2027-04-30"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Weak management oversight and risk controls",
+        "Inadequate liquidity management and funding sources",
+        "High sensitivity to market risk",
+        "Weaknesses in IT security controls",
+        "Inadequate compliance with regulatory reporting requirements"
+      ]
+    },
+    {
+      "bank_id": 33,
+      "bank_name": "Foreign Bank 5",
+      "examination_date": "2024-05-15",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 3.65,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 3,
+        "management_rating": 4,
+        "earnings_rating": 3,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 3,
+        "composite_rating": 3.65,
+        "rating_date": "2024-05-15"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Weak management oversight and risk controls",
+        "Inadequate liquidity management and funding sources",
+        "Inadequate compliance with regulatory reporting requirements",
+        "Weaknesses in IT security controls",
+        "Weaknesses in internal audit function"
+      ]
+    },
+    {
+      "bank_id": 33,
+      "bank_name": "Foreign Bank 5",
+      "examination_date": "2025-02-09",
+      "previous_composite_grade": 4,
+      "new_composite_grade": 3,
+      "new_composite_score": 3.25,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 2,
+        "management_rating": 4,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 3,
+        "composite_rating": 3.25,
+        "rating_date": "2025-02-09"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Weak management oversight and risk controls",
+        "Inadequate liquidity management and funding sources",
+        "Non-compliance with consumer protection regulations",
+        "Weaknesses in IT security controls"
+      ]
+    },
+    {
+      "bank_id": 33,
+      "bank_name": "Foreign Bank 5",
+      "examination_date": "2025-11-06",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 3.25,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 2,
+        "management_rating": 4,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 3,
+        "composite_rating": 3.25,
+        "rating_date": "2025-11-06"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Weak management oversight and risk controls",
+        "Inadequate liquidity management and funding sources",
+        "Concentrations in commercial real estate lending",
+        "Documentation deficiencies in loan files"
+      ]
+    },
+    {
+      "bank_id": 33,
+      "bank_name": "Foreign Bank 5",
+      "examination_date": "2026-08-03",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 2.8,
+      "component_ratings": {
+        "capital_rating": 3,
+        "asset_rating": 1,
+        "management_rating": 4,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 3,
+        "composite_rating": 2.8,
+        "rating_date": "2026-08-03"
+      },
+      "findings": [
+        "Weak management oversight and risk controls",
+        "Inadequate liquidity management and funding sources",
+        "Inadequate business continuity planning",
+        "Weaknesses in IT security controls"
+      ]
+    },
+    {
+      "bank_id": 33,
+      "bank_name": "Foreign Bank 5",
+      "examination_date": "2027-04-30",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 2.8,
+      "component_ratings": {
+        "capital_rating": 3,
+        "asset_rating": 1,
+        "management_rating": 4,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 3,
+        "composite_rating": 2.8,
+        "rating_date": "2027-04-30"
+      },
+      "findings": [
+        "Weak management oversight and risk controls",
+        "Inadequate liquidity management and funding sources",
+        "Insufficient loan loss reserves",
+        "Weaknesses in IT security controls"
+      ]
+    },
+    {
+      "bank_id": 2,
+      "bank_name": "Commercial Bank 2",
+      "examination_date": "2024-06-14",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 3.35,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 3,
+        "management_rating": 3,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 3,
+        "composite_rating": 3.35,
+        "rating_date": "2024-06-14"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "Inadequate business continuity planning",
+        "Inadequate compliance with regulatory reporting requirements"
+      ]
+    },
+    {
+      "bank_id": 2,
+      "bank_name": "Commercial Bank 2",
+      "examination_date": "2025-06-09",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 3.1,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 2,
+        "management_rating": 3,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 3,
+        "composite_rating": 3.1,
+        "rating_date": "2025-06-09"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "Insufficient loan loss reserves",
+        "Concentrations in commercial real estate lending"
+      ]
+    },
+    {
+      "bank_id": 2,
+      "bank_name": "Commercial Bank 2",
+      "examination_date": "2026-06-04",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 3.1,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 2,
+        "management_rating": 3,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 3,
+        "composite_rating": 3.1,
+        "rating_date": "2026-06-04"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "Insufficient loan loss reserves",
+        "Inadequate business continuity planning"
+      ]
+    },
+    {
+      "bank_id": 18,
+      "bank_name": "Specialized Bank 3",
+      "examination_date": "2024-06-14",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 3.25,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 3,
+        "management_rating": 2,
+        "earnings_rating": 3,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 2,
+        "composite_rating": 3.25,
+        "rating_date": "2024-06-14"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "Non-compliance with consumer protection regulations",
+        "Interest rate risk measurement deficiencies"
+      ]
+    },
+    {
+      "bank_id": 18,
+      "bank_name": "Specialized Bank 3",
+      "examination_date": "2025-06-09",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 2.85,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 2,
+        "management_rating": 2,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 2,
+        "composite_rating": 2.85,
+        "rating_date": "2025-06-09"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "Interest rate risk measurement deficiencies",
+        "Weaknesses in internal audit function"
+      ]
+    },
+    {
+      "bank_id": 18,
+      "bank_name": "Specialized Bank 3",
+      "examination_date": "2026-06-04",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 2.85,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 2,
+        "management_rating": 2,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 2,
+        "composite_rating": 2.85,
+        "rating_date": "2026-06-04"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "Inadequate business continuity planning",
+        "Insufficient loan loss reserves"
+      ]
+    },
+    {
+      "bank_id": 21,
+      "bank_name": "Islamic Bank 1",
+      "examination_date": "2024-06-14",
+      "previous_composite_grade": 2,
+      "new_composite_grade": 3,
+      "new_composite_score": 2.7,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 2,
+        "management_rating": 1,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 2,
+        "composite_rating": 2.7,
+        "rating_date": "2024-06-14"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "Documentation deficiencies in loan files",
+        "Deficiencies in anti-money laundering program"
+      ]
+    },
+    {
+      "bank_id": 21,
+      "bank_name": "Islamic Bank 1",
+      "examination_date": "2025-06-09",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 2.45,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 1,
+        "management_rating": 1,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 2,
+        "composite_rating": 2.45,
+        "rating_date": "2025-06-09"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "Deficiencies in anti-money laundering program"
+      ]
+    },
+    {
+      "bank_id": 21,
+      "bank_name": "Islamic Bank 1",
+      "examination_date": "2026-06-04",
+      "previous_composite_grade": 2,
+      "new_composite_grade": 3,
+      "new_composite_score": 2.45,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 1,
+        "management_rating": 1,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 2,
+        "composite_rating": 2.45,
+        "rating_date": "2026-06-04"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "Interest rate risk measurement deficiencies"
+      ]
+    },
+    {
+      "bank_id": 40,
+      "bank_name": "State_Owned Bank 2",
+      "examination_date": "2024-06-14",
+      "previous_composite_grade": 2,
+      "new_composite_grade": 3,
+      "new_composite_score": 2.55,
+      "component_ratings": {
+        "capital_rating": 3,
+        "asset_rating": 2,
+        "management_rating": 2,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 1,
+        "composite_rating": 2.55,
+        "rating_date": "2024-06-14"
+      },
+      "findings": [
+        "Inadequate liquidity management and funding sources",
+        "Concentrations in commercial real estate lending",
+        "Insufficient loan loss reserves"
+      ]
+    },
+    {
+      "bank_id": 40,
+      "bank_name": "State_Owned Bank 2",
+      "examination_date": "2025-06-09",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 2.75,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 2,
+        "management_rating": 2,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 1,
+        "composite_rating": 2.75,
+        "rating_date": "2025-06-09"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "Insufficient loan loss reserves",
+        "Inadequate business continuity planning"
+      ]
+    },
+    {
+      "bank_id": 40,
+      "bank_name": "State_Owned Bank 2",
+      "examination_date": "2026-06-04",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 2.75,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 2,
+        "management_rating": 2,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 1,
+        "composite_rating": 2.75,
+        "rating_date": "2026-06-04"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "Non-compliance with consumer protection regulations",
+        "Documentation deficiencies in loan files"
+      ]
+    },
+    {
+      "bank_id": 10,
+      "bank_name": "Commercial Bank 10",
+      "examination_date": "2024-07-14",
+      "previous_composite_grade": 2,
+      "new_composite_grade": 3,
+      "new_composite_score": 2.9,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 2,
+        "management_rating": 3,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 1,
+        "composite_rating": 2.9,
+        "rating_date": "2024-07-14"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "Insufficient loan loss reserves",
+        "Inadequate compliance with regulatory reporting requirements"
+      ]
+    },
+    {
+      "bank_id": 10,
+      "bank_name": "Commercial Bank 10",
+      "examination_date": "2025-07-09",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 2.65,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 1,
+        "management_rating": 3,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 1,
+        "composite_rating": 2.65,
+        "rating_date": "2025-07-09"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "Weaknesses in IT security controls",
+        "Interest rate risk measurement deficiencies"
+      ]
+    },
+    {
+      "bank_id": 10,
+      "bank_name": "Commercial Bank 10",
+      "examination_date": "2026-07-04",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 2.65,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 1,
+        "management_rating": 3,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 1,
+        "composite_rating": 2.65,
+        "rating_date": "2026-07-04"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "Inadequate compliance with regulatory reporting requirements",
+        "Inadequate business continuity planning"
+      ]
+    },
+    {
+      "bank_id": 19,
+      "bank_name": "Specialized Bank 4",
+      "examination_date": "2024-07-14",
+      "previous_composite_grade": 2,
+      "new_composite_grade": 3,
+      "new_composite_score": 2.85,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 2,
+        "management_rating": 2,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 2,
+        "composite_rating": 2.85,
+        "rating_date": "2024-07-14"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "Inadequate compliance with regulatory reporting requirements",
+        "Weaknesses in internal audit function"
+      ]
+    },
+    {
+      "bank_id": 19,
+      "bank_name": "Specialized Bank 4",
+      "examination_date": "2025-07-09",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 2.85,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 2,
+        "management_rating": 2,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 2,
+        "composite_rating": 2.85,
+        "rating_date": "2025-07-09"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "Weaknesses in internal audit function",
+        "Inadequate business continuity planning"
+      ]
+    },
+    {
+      "bank_id": 19,
+      "bank_name": "Specialized Bank 4",
+      "examination_date": "2026-07-04",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 2.85,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 2,
+        "management_rating": 2,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 2,
+        "composite_rating": 2.85,
+        "rating_date": "2026-07-04"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "Documentation deficiencies in loan files",
+        "Inadequate business continuity planning"
+      ]
+    },
+    {
+      "bank_id": 29,
+      "bank_name": "Foreign Bank 1",
+      "examination_date": "2024-07-14",
+      "previous_composite_grade": 2,
+      "new_composite_grade": 3,
+      "new_composite_score": 2.5,
+      "component_ratings": {
+        "capital_rating": 3,
+        "asset_rating": 2,
+        "management_rating": 1,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 2,
+        "composite_rating": 2.5,
+        "rating_date": "2024-07-14"
+      },
+      "findings": [
+        "Inadequate liquidity management and funding sources",
+        "Inadequate business continuity planning"
+      ]
+    },
+    {
+      "bank_id": 29,
+      "bank_name": "Foreign Bank 1",
+      "examination_date": "2025-07-09",
+      "previous_composite_grade": 2,
+      "new_composite_grade": 3,
+      "new_composite_score": 2.7,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 2,
+        "management_rating": 1,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 2,
+        "composite_rating": 2.7,
+        "rating_date": "2025-07-09"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "Non-compliance with consumer protection regulations",
+        "Weaknesses in internal audit function"
+      ]
+    },
+    {
+      "bank_id": 29,
+      "bank_name": "Foreign Bank 1",
+      "examination_date": "2026-07-04",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 2.7,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 2,
+        "management_rating": 1,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 2,
+        "composite_rating": 2.7,
+        "rating_date": "2026-07-04"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "Inadequate compliance with regulatory reporting requirements",
+        "Inadequate business continuity planning"
+      ]
+    },
+    {
+      "bank_id": 4,
+      "bank_name": "Commercial Bank 4",
+      "examination_date": "2024-09-12",
+      "previous_composite_grade": 1,
+      "new_composite_grade": 3,
+      "new_composite_score": 2.25,
+      "component_ratings": {
+        "capital_rating": 3,
+        "asset_rating": 2,
+        "management_rating": 1,
+        "earnings_rating": 1,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 1,
+        "composite_rating": 2.25,
+        "rating_date": "2024-09-12"
+      },
+      "findings": [
+        "Inadequate liquidity management and funding sources",
+        "Inadequate business continuity planning"
+      ]
+    },
+    {
+      "bank_id": 4,
+      "bank_name": "Commercial Bank 4",
+      "examination_date": "2025-09-07",
+      "previous_composite_grade": 2,
+      "new_composite_grade": 3,
+      "new_composite_score": 2.35,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 1,
+        "management_rating": 1,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 1,
+        "composite_rating": 2.35,
+        "rating_date": "2025-09-07"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "Inadequate compliance with regulatory reporting requirements"
+      ]
+    },
+    {
+      "bank_id": 4,
+      "bank_name": "Commercial Bank 4",
+      "examination_date": "2026-09-02",
+      "previous_composite_grade": 2,
+      "new_composite_grade": 3,
+      "new_composite_score": 2.35,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 1,
+        "management_rating": 1,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 1,
+        "composite_rating": 2.35,
+        "rating_date": "2026-09-02"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "Weaknesses in IT security controls"
+      ]
+    },
+    {
+      "bank_id": 14,
+      "bank_name": "Commercial Bank 14",
+      "examination_date": "2024-09-12",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 3.25,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 3,
+        "management_rating": 3,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 2,
+        "composite_rating": 3.25,
+        "rating_date": "2024-09-12"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "Insufficient loan loss reserves",
+        "Weaknesses in IT security controls"
+      ]
+    },
+    {
+      "bank_id": 14,
+      "bank_name": "Commercial Bank 14",
+      "examination_date": "2025-09-07",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 3.15,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 2,
+        "management_rating": 3,
+        "earnings_rating": 3,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 2,
+        "composite_rating": 3.15,
+        "rating_date": "2025-09-07"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "Documentation deficiencies in loan files",
+        "Deficiencies in anti-money laundering program"
+      ]
+    },
+    {
+      "bank_id": 14,
+      "bank_name": "Commercial Bank 14",
+      "examination_date": "2026-09-02",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 2.75,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 1,
+        "management_rating": 3,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 2,
+        "composite_rating": 2.75,
+        "rating_date": "2026-09-02"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "Documentation deficiencies in loan files",
+        "Concentrations in commercial real estate lending"
+      ]
+    },
+    {
+      "bank_id": 16,
+      "bank_name": "Specialized Bank 1",
+      "examination_date": "2024-09-12",
+      "previous_composite_grade": 2,
+      "new_composite_grade": 3,
+      "new_composite_score": 2.9,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 2,
+        "management_rating": 3,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 1,
+        "composite_rating": 2.9,
+        "rating_date": "2024-09-12"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "Deficiencies in anti-money laundering program",
+        "Insufficient loan loss reserves"
+      ]
+    },
+    {
+      "bank_id": 16,
+      "bank_name": "Specialized Bank 1",
+      "examination_date": "2025-09-07",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 2.9,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 2,
+        "management_rating": 3,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 1,
+        "composite_rating": 2.9,
+        "rating_date": "2025-09-07"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "Non-compliance with consumer protection regulations",
+        "Interest rate risk measurement deficiencies"
+      ]
+    },
+    {
+      "bank_id": 16,
+      "bank_name": "Specialized Bank 1",
+      "examination_date": "2026-09-02",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 2.65,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 1,
+        "management_rating": 3,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 1,
+        "composite_rating": 2.65,
+        "rating_date": "2026-09-02"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "Insufficient loan loss reserves",
+        "Concentrations in commercial real estate lending"
+      ]
+    },
+    {
+      "bank_id": 28,
+      "bank_name": "Islamic Bank 8",
+      "examination_date": "2024-09-12",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 3.15,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 2,
+        "management_rating": 4,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 2,
+        "composite_rating": 3.15,
+        "rating_date": "2024-09-12"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Weak management oversight and risk controls",
+        "Inadequate liquidity management and funding sources",
+        "Inadequate business continuity planning",
+        "Documentation deficiencies in loan files"
+      ]
+    },
+    {
+      "bank_id": 28,
+      "bank_name": "Islamic Bank 8",
+      "examination_date": "2025-09-07",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 3.15,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 2,
+        "management_rating": 4,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 2,
+        "composite_rating": 3.15,
+        "rating_date": "2025-09-07"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Weak management oversight and risk controls",
+        "Inadequate liquidity management and funding sources",
+        "Non-compliance with consumer protection regulations",
+        "Weaknesses in internal audit function"
+      ]
+    },
+    {
+      "bank_id": 28,
+      "bank_name": "Islamic Bank 8",
+      "examination_date": "2026-09-02",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 2.9,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 1,
+        "management_rating": 4,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 2,
+        "composite_rating": 2.9,
+        "rating_date": "2026-09-02"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Weak management oversight and risk controls",
+        "Inadequate liquidity management and funding sources",
+        "Non-compliance with consumer protection regulations",
+        "Concentrations in commercial real estate lending"
+      ]
+    },
+    {
+      "bank_id": 30,
+      "bank_name": "Foreign Bank 2",
+      "examination_date": "2024-09-12",
+      "previous_composite_grade": 1,
+      "new_composite_grade": 3,
+      "new_composite_score": 2.0,
+      "component_ratings": {
+        "capital_rating": 3,
+        "asset_rating": 1,
+        "management_rating": 1,
+        "earnings_rating": 1,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 1,
+        "composite_rating": 2.0,
+        "rating_date": "2024-09-12"
+      },
+      "findings": [
+        "Inadequate liquidity management and funding sources",
+        "Inadequate compliance with regulatory reporting requirements"
+      ]
+    },
+    {
+      "bank_id": 30,
+      "bank_name": "Foreign Bank 2",
+      "examination_date": "2025-09-07",
+      "previous_composite_grade": 2,
+      "new_composite_grade": 3,
+      "new_composite_score": 2.6,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 2,
+        "management_rating": 1,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 1,
+        "composite_rating": 2.6,
+        "rating_date": "2025-09-07"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "Deficiencies in anti-money laundering program",
+        "Weaknesses in internal audit function"
+      ]
+    },
+    {
+      "bank_id": 30,
+      "bank_name": "Foreign Bank 2",
+      "examination_date": "2026-09-02",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 2.8,
+      "component_ratings": {
+        "capital_rating": 5,
+        "asset_rating": 2,
+        "management_rating": 1,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 1,
+        "composite_rating": 2.8,
+        "rating_date": "2026-09-02"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "Deficiencies in anti-money laundering program",
+        "Inadequate business continuity planning"
+      ]
+    },
+    {
+      "bank_id": 34,
+      "bank_name": "Foreign Bank 6",
+      "examination_date": "2024-09-12",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 3.1,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 3,
+        "management_rating": 2,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 2,
+        "composite_rating": 3.1,
+        "rating_date": "2024-09-12"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "Concentrations in commercial real estate lending",
+        "Weaknesses in internal audit function"
+      ]
+    },
+    {
+      "bank_id": 34,
+      "bank_name": "Foreign Bank 6",
+      "examination_date": "2025-09-07",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 3.0,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 2,
+        "management_rating": 2,
+        "earnings_rating": 3,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 2,
+        "composite_rating": 3.0,
+        "rating_date": "2025-09-07"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "Non-compliance with consumer protection regulations",
+        "Weaknesses in IT security controls"
+      ]
+    },
+    {
+      "bank_id": 34,
+      "bank_name": "Foreign Bank 6",
+      "examination_date": "2026-09-02",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 2.6,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 1,
+        "management_rating": 2,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 2,
+        "composite_rating": 2.6,
+        "rating_date": "2026-09-02"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "Non-compliance with consumer protection regulations",
+        "Documentation deficiencies in loan files"
+      ]
+    },
+    {
+      "bank_id": 38,
+      "bank_name": "Development Bank 3",
+      "examination_date": "2024-09-12",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 3.6,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 3,
+        "management_rating": 3,
+        "earnings_rating": 3,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 4,
+        "composite_rating": 3.6,
+        "rating_date": "2024-09-12"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "High sensitivity to market risk",
+        "Inadequate compliance with regulatory reporting requirements",
+        "Concentrations in commercial real estate lending",
+        "Insufficient loan loss reserves"
+      ]
+    },
+    {
+      "bank_id": 38,
+      "bank_name": "Development Bank 3",
+      "examination_date": "2025-09-07",
+      "previous_composite_grade": 4,
+      "new_composite_grade": 3,
+      "new_composite_score": 3.35,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 2,
+        "management_rating": 3,
+        "earnings_rating": 3,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 4,
+        "composite_rating": 3.35,
+        "rating_date": "2025-09-07"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "High sensitivity to market risk",
+        "Inadequate business continuity planning",
+        "Concentrations in commercial real estate lending"
+      ]
+    },
+    {
+      "bank_id": 38,
+      "bank_name": "Development Bank 3",
+      "examination_date": "2026-09-02",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 3.2,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 2,
+        "management_rating": 3,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 4,
+        "composite_rating": 3.2,
+        "rating_date": "2026-09-02"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "High sensitivity to market risk",
+        "Documentation deficiencies in loan files",
+        "Concentrations in commercial real estate lending"
+      ]
+    },
+    {
+      "bank_id": 39,
+      "bank_name": "State_Owned Bank 1",
+      "examination_date": "2024-09-12",
+      "previous_composite_grade": 2,
+      "new_composite_grade": 3,
+      "new_composite_score": 2.65,
+      "component_ratings": {
+        "capital_rating": 3,
+        "asset_rating": 2,
+        "management_rating": 2,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 2,
+        "composite_rating": 2.65,
+        "rating_date": "2024-09-12"
+      },
+      "findings": [
+        "Inadequate liquidity management and funding sources",
+        "Inadequate business continuity planning",
+        "Non-compliance with consumer protection regulations"
+      ]
+    },
+    {
+      "bank_id": 39,
+      "bank_name": "State_Owned Bank 1",
+      "examination_date": "2025-09-07",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 2.85,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 2,
+        "management_rating": 2,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 2,
+        "composite_rating": 2.85,
+        "rating_date": "2025-09-07"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "Inadequate business continuity planning",
+        "Inadequate compliance with regulatory reporting requirements"
+      ]
+    },
+    {
+      "bank_id": 39,
+      "bank_name": "State_Owned Bank 1",
+      "examination_date": "2026-09-02",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 2.4,
+      "component_ratings": {
+        "capital_rating": 3,
+        "asset_rating": 1,
+        "management_rating": 2,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 2,
+        "composite_rating": 2.4,
+        "rating_date": "2026-09-02"
+      },
+      "findings": [
+        "Inadequate liquidity management and funding sources",
+        "Weaknesses in internal audit function"
+      ]
+    },
+    {
+      "bank_id": 23,
+      "bank_name": "Islamic Bank 3",
+      "examination_date": "2024-10-12",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 3.35,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 3,
+        "management_rating": 3,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 3,
+        "composite_rating": 3.35,
+        "rating_date": "2024-10-12"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "Documentation deficiencies in loan files",
+        "Weaknesses in internal audit function"
+      ]
+    },
+    {
+      "bank_id": 23,
+      "bank_name": "Islamic Bank 3",
+      "examination_date": "2025-07-09",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 3.1,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 2,
+        "management_rating": 3,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 3,
+        "composite_rating": 3.1,
+        "rating_date": "2025-07-09"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "Inadequate business continuity planning",
+        "Insufficient loan loss reserves"
+      ]
+    },
+    {
+      "bank_id": 23,
+      "bank_name": "Islamic Bank 3",
+      "examination_date": "2026-04-05",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 3.1,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 2,
+        "management_rating": 3,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 3,
+        "composite_rating": 3.1,
+        "rating_date": "2026-04-05"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "Interest rate risk measurement deficiencies",
+        "Deficiencies in anti-money laundering program"
+      ]
+    },
+    {
+      "bank_id": 23,
+      "bank_name": "Islamic Bank 3",
+      "examination_date": "2026-12-31",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 3.1,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 2,
+        "management_rating": 3,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 3,
+        "composite_rating": 3.1,
+        "rating_date": "2026-12-31"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "Documentation deficiencies in loan files",
+        "Non-compliance with consumer protection regulations"
+      ]
+    },
+    {
+      "bank_id": 32,
+      "bank_name": "Foreign Bank 4",
+      "examination_date": "2024-10-12",
+      "previous_composite_grade": 4,
+      "new_composite_grade": 3,
+      "new_composite_score": 3.9,
+      "component_ratings": {
+        "capital_rating": 5,
+        "asset_rating": 3,
+        "management_rating": 3,
+        "earnings_rating": 3,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 5,
+        "composite_rating": 3.9,
+        "rating_date": "2024-10-12"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "High sensitivity to market risk",
+        "Interest rate risk measurement deficiencies",
+        "Concentrations in commercial real estate lending",
+        "Weaknesses in IT security controls"
+      ]
+    },
+    {
+      "bank_id": 32,
+      "bank_name": "Foreign Bank 4",
+      "examination_date": "2025-07-09",
+      "previous_composite_grade": 4,
+      "new_composite_grade": 3,
+      "new_composite_score": 3.3,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 2,
+        "management_rating": 3,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 5,
+        "composite_rating": 3.3,
+        "rating_date": "2025-07-09"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "High sensitivity to market risk",
+        "Weaknesses in IT security controls",
+        "Deficiencies in anti-money laundering program"
+      ]
+    },
+    {
+      "bank_id": 32,
+      "bank_name": "Foreign Bank 4",
+      "examination_date": "2026-04-05",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 3.05,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 1,
+        "management_rating": 3,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 5,
+        "composite_rating": 3.05,
+        "rating_date": "2026-04-05"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "High sensitivity to market risk",
+        "Concentrations in commercial real estate lending",
+        "Inadequate compliance with regulatory reporting requirements"
+      ]
+    },
+    {
+      "bank_id": 32,
+      "bank_name": "Foreign Bank 4",
+      "examination_date": "2026-12-31",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 3.05,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 1,
+        "management_rating": 3,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 5,
+        "composite_rating": 3.05,
+        "rating_date": "2026-12-31"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "High sensitivity to market risk",
+        "Insufficient loan loss reserves",
+        "Non-compliance with consumer protection regulations"
+      ]
+    },
+    {
+      "bank_id": 25,
+      "bank_name": "Islamic Bank 5",
+      "examination_date": "2024-11-11",
+      "previous_composite_grade": 2,
+      "new_composite_grade": 3,
+      "new_composite_score": 3.0,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 2,
+        "management_rating": 3,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 2,
+        "composite_rating": 3.0,
+        "rating_date": "2024-11-11"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "Weaknesses in internal audit function",
+        "Interest rate risk measurement deficiencies"
+      ]
+    },
+    {
+      "bank_id": 25,
+      "bank_name": "Islamic Bank 5",
+      "examination_date": "2025-11-06",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 2.75,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 1,
+        "management_rating": 3,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 2,
+        "composite_rating": 2.75,
+        "rating_date": "2025-11-06"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "Interest rate risk measurement deficiencies",
+        "Inadequate business continuity planning"
+      ]
+    },
+    {
+      "bank_id": 25,
+      "bank_name": "Islamic Bank 5",
+      "examination_date": "2026-11-01",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 2.75,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 1,
+        "management_rating": 3,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 2,
+        "composite_rating": 2.75,
+        "rating_date": "2026-11-01"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "Weaknesses in IT security controls",
+        "Inadequate business continuity planning"
+      ]
+    },
+    {
+      "bank_id": 35,
+      "bank_name": "Foreign Bank 7",
+      "examination_date": "2024-11-11",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 3.5,
+      "component_ratings": {
+        "capital_rating": 5,
+        "asset_rating": 3,
+        "management_rating": 2,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 4,
+        "composite_rating": 3.5,
+        "rating_date": "2024-11-11"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "High sensitivity to market risk",
+        "Inadequate business continuity planning",
+        "Deficiencies in anti-money laundering program",
+        "Inadequate compliance with regulatory reporting requirements"
+      ]
+    },
+    {
+      "bank_id": 35,
+      "bank_name": "Foreign Bank 7",
+      "examination_date": "2025-11-06",
+      "previous_composite_grade": 4,
+      "new_composite_grade": 3,
+      "new_composite_score": 3.05,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 2,
+        "management_rating": 2,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 4,
+        "composite_rating": 3.05,
+        "rating_date": "2025-11-06"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "High sensitivity to market risk",
+        "Inadequate business continuity planning",
+        "Inadequate compliance with regulatory reporting requirements"
+      ]
+    },
+    {
+      "bank_id": 35,
+      "bank_name": "Foreign Bank 7",
+      "examination_date": "2026-11-01",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 2.8,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 1,
+        "management_rating": 2,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 4,
+        "composite_rating": 2.8,
+        "rating_date": "2026-11-01"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "High sensitivity to market risk",
+        "Insufficient loan loss reserves",
+        "Weaknesses in IT security controls"
+      ]
+    },
+    {
+      "bank_id": 3,
+      "bank_name": "Commercial Bank 3",
+      "examination_date": "2024-12-11",
+      "previous_composite_grade": 2,
+      "new_composite_grade": 3,
+      "new_composite_score": 2.75,
+      "component_ratings": {
+        "capital_rating": 3,
+        "asset_rating": 2,
+        "management_rating": 2,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 3,
+        "composite_rating": 2.75,
+        "rating_date": "2024-12-11"
+      },
+      "findings": [
+        "Inadequate liquidity management and funding sources",
+        "Documentation deficiencies in loan files",
+        "Inadequate business continuity planning"
+      ]
+    },
+    {
+      "bank_id": 3,
+      "bank_name": "Commercial Bank 3",
+      "examination_date": "2025-09-07",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 2.7,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 1,
+        "management_rating": 2,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 3,
+        "composite_rating": 2.7,
+        "rating_date": "2025-09-07"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "Inadequate business continuity planning",
+        "Insufficient loan loss reserves"
+      ]
+    },
+    {
+      "bank_id": 3,
+      "bank_name": "Commercial Bank 3",
+      "examination_date": "2026-06-04",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 2.35,
+      "component_ratings": {
+        "capital_rating": 3,
+        "asset_rating": 1,
+        "management_rating": 2,
+        "earnings_rating": 1,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 3,
+        "composite_rating": 2.35,
+        "rating_date": "2026-06-04"
+      },
+      "findings": [
+        "Inadequate liquidity management and funding sources",
+        "Weaknesses in IT security controls"
+      ]
+    },
+    {
+      "bank_id": 3,
+      "bank_name": "Commercial Bank 3",
+      "examination_date": "2027-03-01",
+      "previous_composite_grade": 2,
+      "new_composite_grade": 3,
+      "new_composite_score": 2.95,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 2,
+        "management_rating": 2,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 3,
+        "composite_rating": 2.95,
+        "rating_date": "2027-03-01"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "Weaknesses in IT security controls",
+        "Weaknesses in internal audit function"
+      ]
+    },
+    {
+      "bank_id": 7,
+      "bank_name": "Commercial Bank 7",
+      "examination_date": "2024-12-11",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 3.55,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 3,
+        "management_rating": 4,
+        "earnings_rating": 3,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 2,
+        "composite_rating": 3.55,
+        "rating_date": "2024-12-11"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Weak management oversight and risk controls",
+        "Inadequate liquidity management and funding sources",
+        "Non-compliance with consumer protection regulations",
+        "Insufficient loan loss reserves",
+        "Deficiencies in anti-money laundering program"
+      ]
+    },
+    {
+      "bank_id": 7,
+      "bank_name": "Commercial Bank 7",
+      "examination_date": "2025-12-06",
+      "previous_composite_grade": 4,
+      "new_composite_grade": 3,
+      "new_composite_score": 2.9,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 1,
+        "management_rating": 4,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 2,
+        "composite_rating": 2.9,
+        "rating_date": "2025-12-06"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Weak management oversight and risk controls",
+        "Inadequate liquidity management and funding sources",
+        "Non-compliance with consumer protection regulations",
+        "Inadequate business continuity planning"
+      ]
+    },
+    {
+      "bank_id": 7,
+      "bank_name": "Commercial Bank 7",
+      "examination_date": "2026-12-01",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 3.15,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 2,
+        "management_rating": 4,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 2,
+        "composite_rating": 3.15,
+        "rating_date": "2026-12-01"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Weak management oversight and risk controls",
+        "Inadequate liquidity management and funding sources",
+        "Non-compliance with consumer protection regulations",
+        "Inadequate business continuity planning"
+      ]
+    },
+    {
+      "bank_id": 8,
+      "bank_name": "Commercial Bank 8",
+      "examination_date": "2024-12-11",
+      "previous_composite_grade": 2,
+      "new_composite_grade": 3,
+      "new_composite_score": 3.1,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 2,
+        "management_rating": 3,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 3,
+        "composite_rating": 3.1,
+        "rating_date": "2024-12-11"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "Inadequate compliance with regulatory reporting requirements",
+        "Weaknesses in IT security controls"
+      ]
+    },
+    {
+      "bank_id": 8,
+      "bank_name": "Commercial Bank 8",
+      "examination_date": "2025-09-07",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 3.1,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 2,
+        "management_rating": 3,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 3,
+        "composite_rating": 3.1,
+        "rating_date": "2025-09-07"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "Non-compliance with consumer protection regulations",
+        "Deficiencies in anti-money laundering program"
+      ]
+    },
+    {
+      "bank_id": 8,
+      "bank_name": "Commercial Bank 8",
+      "examination_date": "2026-06-04",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 2.85,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 1,
+        "management_rating": 3,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 3,
+        "composite_rating": 2.85,
+        "rating_date": "2026-06-04"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "Weaknesses in IT security controls",
+        "Non-compliance with consumer protection regulations"
+      ]
+    },
+    {
+      "bank_id": 8,
+      "bank_name": "Commercial Bank 8",
+      "examination_date": "2027-03-01",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 2.85,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 1,
+        "management_rating": 3,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 3,
+        "composite_rating": 2.85,
+        "rating_date": "2027-03-01"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "Weaknesses in IT security controls",
+        "Deficiencies in anti-money laundering program"
+      ]
+    },
+    {
+      "bank_id": 12,
+      "bank_name": "Commercial Bank 12",
+      "examination_date": "2024-12-11",
+      "previous_composite_grade": 2,
+      "new_composite_grade": 3,
+      "new_composite_score": 2.95,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 2,
+        "management_rating": 2,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 3,
+        "composite_rating": 2.95,
+        "rating_date": "2024-12-11"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "Insufficient loan loss reserves",
+        "Deficiencies in anti-money laundering program"
+      ]
+    },
+    {
+      "bank_id": 12,
+      "bank_name": "Commercial Bank 12",
+      "examination_date": "2025-12-06",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 2.95,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 2,
+        "management_rating": 2,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 3,
+        "composite_rating": 2.95,
+        "rating_date": "2025-12-06"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "Insufficient loan loss reserves",
+        "Concentrations in commercial real estate lending"
+      ]
+    },
+    {
+      "bank_id": 12,
+      "bank_name": "Commercial Bank 12",
+      "examination_date": "2026-12-01",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 2.7,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 1,
+        "management_rating": 2,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 3,
+        "composite_rating": 2.7,
+        "rating_date": "2026-12-01"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "Interest rate risk measurement deficiencies",
+        "Inadequate compliance with regulatory reporting requirements"
+      ]
+    },
+    {
+      "bank_id": 24,
+      "bank_name": "Islamic Bank 4",
+      "examination_date": "2024-12-11",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 3.45,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 3,
+        "management_rating": 3,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 4,
+        "composite_rating": 3.45,
+        "rating_date": "2024-12-11"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "High sensitivity to market risk",
+        "Documentation deficiencies in loan files",
+        "Deficiencies in anti-money laundering program"
+      ]
+    },
+    {
+      "bank_id": 24,
+      "bank_name": "Islamic Bank 4",
+      "examination_date": "2025-12-06",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 3.2,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 2,
+        "management_rating": 3,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 4,
+        "composite_rating": 3.2,
+        "rating_date": "2025-12-06"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "High sensitivity to market risk",
+        "Weaknesses in IT security controls",
+        "Inadequate business continuity planning"
+      ]
+    },
+    {
+      "bank_id": 24,
+      "bank_name": "Islamic Bank 4",
+      "examination_date": "2026-12-01",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 2.95,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 1,
+        "management_rating": 3,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 4,
+        "composite_rating": 2.95,
+        "rating_date": "2026-12-01"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "High sensitivity to market risk",
+        "Concentrations in commercial real estate lending",
+        "Deficiencies in anti-money laundering program"
+      ]
+    },
+    {
+      "bank_id": 36,
+      "bank_name": "Development Bank 1",
+      "examination_date": "2024-12-11",
+      "previous_composite_grade": 1,
+      "new_composite_grade": 3,
+      "new_composite_score": 2.85,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 2,
+        "management_rating": 2,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 2,
+        "composite_rating": 2.85,
+        "rating_date": "2024-12-11"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "Inadequate business continuity planning",
+        "Interest rate risk measurement deficiencies"
+      ]
+    },
+    {
+      "bank_id": 36,
+      "bank_name": "Development Bank 1",
+      "examination_date": "2025-09-07",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 2.6,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 1,
+        "management_rating": 2,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 2,
+        "composite_rating": 2.6,
+        "rating_date": "2025-09-07"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "Documentation deficiencies in loan files",
+        "Non-compliance with consumer protection regulations"
+      ]
+    },
+    {
+      "bank_id": 36,
+      "bank_name": "Development Bank 1",
+      "examination_date": "2026-06-04",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 2.4,
+      "component_ratings": {
+        "capital_rating": 3,
+        "asset_rating": 1,
+        "management_rating": 2,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 2,
+        "composite_rating": 2.4,
+        "rating_date": "2026-06-04"
+      },
+      "findings": [
+        "Inadequate liquidity management and funding sources",
+        "Insufficient loan loss reserves"
+      ]
+    },
+    {
+      "bank_id": 36,
+      "bank_name": "Development Bank 1",
+      "examination_date": "2027-03-01",
+      "previous_composite_grade": 2,
+      "new_composite_grade": 3,
+      "new_composite_score": 2.6,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 1,
+        "management_rating": 2,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 2,
+        "composite_rating": 2.6,
+        "rating_date": "2027-03-01"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "Interest rate risk measurement deficiencies",
+        "Deficiencies in anti-money laundering program"
+      ]
+    },
+    {
+      "bank_id": 13,
+      "bank_name": "Commercial Bank 13",
+      "examination_date": "2025-01-10",
+      "previous_composite_grade": 1,
+      "new_composite_grade": 3,
+      "new_composite_score": 2.75,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 2,
+        "management_rating": 2,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 1,
+        "composite_rating": 2.75,
+        "rating_date": "2025-01-10"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "Weaknesses in IT security controls",
+        "Inadequate business continuity planning"
+      ]
+    },
+    {
+      "bank_id": 13,
+      "bank_name": "Commercial Bank 13",
+      "examination_date": "2025-10-07",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 2.3,
+      "component_ratings": {
+        "capital_rating": 3,
+        "asset_rating": 1,
+        "management_rating": 2,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 1,
+        "composite_rating": 2.3,
+        "rating_date": "2025-10-07"
+      },
+      "findings": [
+        "Inadequate liquidity management and funding sources",
+        "Concentrations in commercial real estate lending"
+      ]
+    },
+    {
+      "bank_id": 13,
+      "bank_name": "Commercial Bank 13",
+      "examination_date": "2026-07-04",
+      "previous_composite_grade": 2,
+      "new_composite_grade": 3,
+      "new_composite_score": 2.5,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 1,
+        "management_rating": 2,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 1,
+        "composite_rating": 2.5,
+        "rating_date": "2026-07-04"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "Documentation deficiencies in loan files"
+      ]
+    },
+    {
+      "bank_id": 13,
+      "bank_name": "Commercial Bank 13",
+      "examination_date": "2027-03-31",
+      "previous_composite_grade": 2,
+      "new_composite_grade": 3,
+      "new_composite_score": 2.35,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 1,
+        "management_rating": 2,
+        "earnings_rating": 1,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 1,
+        "composite_rating": 2.35,
+        "rating_date": "2027-03-31"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "Weaknesses in IT security controls"
+      ]
+    },
+    {
+      "bank_id": 26,
+      "bank_name": "Islamic Bank 6",
+      "examination_date": "2025-01-10",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 3.55,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 3,
+        "management_rating": 4,
+        "earnings_rating": 3,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 2,
+        "composite_rating": 3.55,
+        "rating_date": "2025-01-10"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Weak management oversight and risk controls",
+        "Inadequate liquidity management and funding sources",
+        "Non-compliance with consumer protection regulations",
+        "Documentation deficiencies in loan files",
+        "Interest rate risk measurement deficiencies"
+      ]
+    },
+    {
+      "bank_id": 26,
+      "bank_name": "Islamic Bank 6",
+      "examination_date": "2026-01-05",
+      "previous_composite_grade": 4,
+      "new_composite_grade": 3,
+      "new_composite_score": 3.3,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 2,
+        "management_rating": 4,
+        "earnings_rating": 3,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 2,
+        "composite_rating": 3.3,
+        "rating_date": "2026-01-05"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Weak management oversight and risk controls",
+        "Inadequate liquidity management and funding sources",
+        "Inadequate business continuity planning",
+        "Deficiencies in anti-money laundering program"
+      ]
+    },
+    {
+      "bank_id": 26,
+      "bank_name": "Islamic Bank 6",
+      "examination_date": "2026-12-31",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 2.9,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 1,
+        "management_rating": 4,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 2,
+        "composite_rating": 2.9,
+        "rating_date": "2026-12-31"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Weak management oversight and risk controls",
+        "Inadequate liquidity management and funding sources",
+        "Documentation deficiencies in loan files",
+        "Insufficient loan loss reserves"
+      ]
+    },
+    {
+      "bank_id": 5,
+      "bank_name": "Commercial Bank 5",
+      "examination_date": "2025-02-09",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 3.45,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 3,
+        "management_rating": 2,
+        "earnings_rating": 3,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 4,
+        "composite_rating": 3.45,
+        "rating_date": "2025-02-09"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "High sensitivity to market risk",
+        "Inadequate compliance with regulatory reporting requirements",
+        "Non-compliance with consumer protection regulations"
+      ]
+    },
+    {
+      "bank_id": 5,
+      "bank_name": "Commercial Bank 5",
+      "examination_date": "2026-02-04",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 2.8,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 1,
+        "management_rating": 2,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 4,
+        "composite_rating": 2.8,
+        "rating_date": "2026-02-04"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "High sensitivity to market risk",
+        "Concentrations in commercial real estate lending",
+        "Documentation deficiencies in loan files"
+      ]
+    },
+    {
+      "bank_id": 5,
+      "bank_name": "Commercial Bank 5",
+      "examination_date": "2027-01-30",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 2.8,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 1,
+        "management_rating": 2,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 4,
+        "composite_rating": 2.8,
+        "rating_date": "2027-01-30"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "High sensitivity to market risk",
+        "Interest rate risk measurement deficiencies",
+        "Insufficient loan loss reserves"
+      ]
+    },
+    {
+      "bank_id": 1,
+      "bank_name": "Commercial Bank 1",
+      "examination_date": "2025-04-10",
+      "previous_composite_grade": 2,
+      "new_composite_grade": 3,
+      "new_composite_score": 2.6,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 2,
+        "management_rating": 1,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 1,
+        "composite_rating": 2.6,
+        "rating_date": "2025-04-10"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "Concentrations in commercial real estate lending",
+        "Interest rate risk measurement deficiencies"
+      ]
+    },
+    {
+      "bank_id": 1,
+      "bank_name": "Commercial Bank 1",
+      "examination_date": "2026-04-05",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 2.6,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 2,
+        "management_rating": 1,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 1,
+        "composite_rating": 2.6,
+        "rating_date": "2026-04-05"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "Inadequate compliance with regulatory reporting requirements",
+        "Interest rate risk measurement deficiencies"
+      ]
+    },
+    {
+      "bank_id": 1,
+      "bank_name": "Commercial Bank 1",
+      "examination_date": "2027-03-31",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 2.2,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 1,
+        "management_rating": 1,
+        "earnings_rating": 1,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 1,
+        "composite_rating": 2.2,
+        "rating_date": "2027-03-31"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "Non-compliance with consumer protection regulations"
+      ]
+    },
+    {
+      "bank_id": 9,
+      "bank_name": "Commercial Bank 9",
+      "examination_date": "2025-04-10",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 3.4,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 3,
+        "management_rating": 4,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 2,
+        "composite_rating": 3.4,
+        "rating_date": "2025-04-10"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Weak management oversight and risk controls",
+        "Inadequate liquidity management and funding sources",
+        "Documentation deficiencies in loan files",
+        "Weaknesses in IT security controls"
+      ]
+    },
+    {
+      "bank_id": 9,
+      "bank_name": "Commercial Bank 9",
+      "examination_date": "2026-04-05",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 3.15,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 2,
+        "management_rating": 4,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 2,
+        "composite_rating": 3.15,
+        "rating_date": "2026-04-05"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Weak management oversight and risk controls",
+        "Inadequate liquidity management and funding sources",
+        "Weaknesses in internal audit function",
+        "Non-compliance with consumer protection regulations"
+      ]
+    },
+    {
+      "bank_id": 9,
+      "bank_name": "Commercial Bank 9",
+      "examination_date": "2027-03-31",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 2.9,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 1,
+        "management_rating": 4,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 2,
+        "composite_rating": 2.9,
+        "rating_date": "2027-03-31"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Weak management oversight and risk controls",
+        "Inadequate liquidity management and funding sources",
+        "Inadequate business continuity planning",
+        "Non-compliance with consumer protection regulations"
+      ]
+    },
+    {
+      "bank_id": 11,
+      "bank_name": "Commercial Bank 11",
+      "examination_date": "2025-04-10",
+      "previous_composite_grade": 2,
+      "new_composite_grade": 3,
+      "new_composite_score": 3.1,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 2,
+        "management_rating": 3,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 3,
+        "composite_rating": 3.1,
+        "rating_date": "2025-04-10"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "Documentation deficiencies in loan files",
+        "Weaknesses in IT security controls"
+      ]
+    },
+    {
+      "bank_id": 11,
+      "bank_name": "Commercial Bank 11",
+      "examination_date": "2026-04-05",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 2.85,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 1,
+        "management_rating": 3,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 3,
+        "composite_rating": 2.85,
+        "rating_date": "2026-04-05"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "Inadequate business continuity planning",
+        "Deficiencies in anti-money laundering program"
+      ]
+    },
+    {
+      "bank_id": 11,
+      "bank_name": "Commercial Bank 11",
+      "examination_date": "2027-03-31",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 2.85,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 1,
+        "management_rating": 3,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 3,
+        "composite_rating": 2.85,
+        "rating_date": "2027-03-31"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "Concentrations in commercial real estate lending",
+        "Non-compliance with consumer protection regulations"
+      ]
+    },
+    {
+      "bank_id": 22,
+      "bank_name": "Islamic Bank 2",
+      "examination_date": "2025-04-10",
+      "previous_composite_grade": 2,
+      "new_composite_grade": 3,
+      "new_composite_score": 3.0,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 2,
+        "management_rating": 3,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 2,
+        "composite_rating": 3.0,
+        "rating_date": "2025-04-10"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "Insufficient loan loss reserves",
+        "Weaknesses in IT security controls"
+      ]
+    },
+    {
+      "bank_id": 22,
+      "bank_name": "Islamic Bank 2",
+      "examination_date": "2026-04-05",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 2.75,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 1,
+        "management_rating": 3,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 2,
+        "composite_rating": 2.75,
+        "rating_date": "2026-04-05"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "Interest rate risk measurement deficiencies",
+        "Non-compliance with consumer protection regulations"
+      ]
+    },
+    {
+      "bank_id": 22,
+      "bank_name": "Islamic Bank 2",
+      "examination_date": "2027-03-31",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 3.15,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 2,
+        "management_rating": 3,
+        "earnings_rating": 3,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 2,
+        "composite_rating": 3.15,
+        "rating_date": "2027-03-31"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "Inadequate compliance with regulatory reporting requirements",
+        "Concentrations in commercial real estate lending"
+      ]
+    },
+    {
+      "bank_id": 31,
+      "bank_name": "Foreign Bank 3",
+      "examination_date": "2025-04-10",
+      "previous_composite_grade": 2,
+      "new_composite_grade": 3,
+      "new_composite_score": 3.1,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 2,
+        "management_rating": 3,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 3,
+        "composite_rating": 3.1,
+        "rating_date": "2025-04-10"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "Deficiencies in anti-money laundering program",
+        "Inadequate compliance with regulatory reporting requirements"
+      ]
+    },
+    {
+      "bank_id": 31,
+      "bank_name": "Foreign Bank 3",
+      "examination_date": "2026-04-05",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 2.85,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 1,
+        "management_rating": 3,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 3,
+        "composite_rating": 2.85,
+        "rating_date": "2026-04-05"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "Weaknesses in internal audit function",
+        "Concentrations in commercial real estate lending"
+      ]
+    },
+    {
+      "bank_id": 31,
+      "bank_name": "Foreign Bank 3",
+      "examination_date": "2027-03-31",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 2.85,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 1,
+        "management_rating": 3,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 3,
+        "composite_rating": 2.85,
+        "rating_date": "2027-03-31"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "Weaknesses in IT security controls",
+        "Weaknesses in internal audit function"
+      ]
+    },
+    {
+      "bank_id": 37,
+      "bank_name": "Development Bank 2",
+      "examination_date": "2025-04-10",
+      "previous_composite_grade": 4,
+      "new_composite_grade": 3,
+      "new_composite_score": 3.7,
+      "component_ratings": {
+        "capital_rating": 5,
+        "asset_rating": 3,
+        "management_rating": 3,
+        "earnings_rating": 3,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 3,
+        "composite_rating": 3.7,
+        "rating_date": "2025-04-10"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "Insufficient loan loss reserves",
+        "Inadequate compliance with regulatory reporting requirements",
+        "Concentrations in commercial real estate lending"
+      ]
+    },
+    {
+      "bank_id": 37,
+      "bank_name": "Development Bank 2",
+      "examination_date": "2026-04-05",
+      "previous_composite_grade": 4,
+      "new_composite_grade": 3,
+      "new_composite_score": 3.1,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 2,
+        "management_rating": 3,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 3,
+        "composite_rating": 3.1,
+        "rating_date": "2026-04-05"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "Weaknesses in IT security controls",
+        "Insufficient loan loss reserves"
+      ]
+    },
+    {
+      "bank_id": 37,
+      "bank_name": "Development Bank 2",
+      "examination_date": "2027-03-31",
+      "previous_composite_grade": 3,
+      "new_composite_grade": 3,
+      "new_composite_score": 3.1,
+      "component_ratings": {
+        "capital_rating": 4,
+        "asset_rating": 2,
+        "management_rating": 3,
+        "earnings_rating": 2,
+        "liquidity_rating": 5,
+        "sensitivity_rating": 3,
+        "composite_rating": 3.1,
+        "rating_date": "2027-03-31"
+      },
+      "findings": [
+        "Inadequate capital levels for risk profile",
+        "Inadequate liquidity management and funding sources",
+        "Interest rate risk measurement deficiencies",
+        "Concentrations in commercial real estate lending"
+      ]
+    }
+  ],
+  "regulatory_actions": [
+    {
+      "bank_id": 6,
+      "bank_name": "Commercial Bank 6",
+      "date": "2024-05-15",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 6,
+      "bank_name": "Commercial Bank 6",
+      "date": "2025-02-09",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 6,
+      "bank_name": "Commercial Bank 6",
+      "date": "2025-11-06",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 6,
+      "bank_name": "Commercial Bank 6",
+      "date": "2026-08-03",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 6,
+      "bank_name": "Commercial Bank 6",
+      "date": "2027-04-30",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 15,
+      "bank_name": "Commercial Bank 15",
+      "date": "2024-05-15",
+      "actions": [
+        "Increased loan loss reserves required",
+        "Asset quality improvement plan required",
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements",
+        "Management improvement plan required",
+        "Management changes recommended"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 15,
+      "bank_name": "Commercial Bank 15",
+      "date": "2025-05-10",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements",
+        "Management improvement plan required",
+        "Management changes recommended"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 15,
+      "bank_name": "Commercial Bank 15",
+      "date": "2026-05-05",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements",
+        "Management improvement plan required",
+        "Management changes recommended"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 15,
+      "bank_name": "Commercial Bank 15",
+      "date": "2027-04-30",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements",
+        "Management improvement plan required",
+        "Management changes recommended"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 17,
+      "bank_name": "Specialized Bank 2",
+      "date": "2024-05-15",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 17,
+      "bank_name": "Specialized Bank 2",
+      "date": "2025-02-09",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 17,
+      "bank_name": "Specialized Bank 2",
+      "date": "2025-11-06",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 17,
+      "bank_name": "Specialized Bank 2",
+      "date": "2026-08-03",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 17,
+      "bank_name": "Specialized Bank 2",
+      "date": "2027-04-30",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 20,
+      "bank_name": "Specialized Bank 5",
+      "date": "2024-05-15",
+      "actions": [
+        "Increased loan loss reserves required",
+        "Asset quality improvement plan required",
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements",
+        "Management improvement plan required"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 20,
+      "bank_name": "Specialized Bank 5",
+      "date": "2025-02-09",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements",
+        "Management improvement plan required"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 20,
+      "bank_name": "Specialized Bank 5",
+      "date": "2025-11-06",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements",
+        "Management improvement plan required"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 20,
+      "bank_name": "Specialized Bank 5",
+      "date": "2026-08-03",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements",
+        "Management improvement plan required"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 20,
+      "bank_name": "Specialized Bank 5",
+      "date": "2027-04-30",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements",
+        "Management improvement plan required"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 27,
+      "bank_name": "Islamic Bank 7",
+      "date": "2024-05-15",
+      "actions": [
+        "Increased loan loss reserves required",
+        "Asset quality improvement plan required",
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements",
+        "Management improvement plan required"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 27,
+      "bank_name": "Islamic Bank 7",
+      "date": "2025-05-10",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements",
+        "Management improvement plan required"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 27,
+      "bank_name": "Islamic Bank 7",
+      "date": "2026-05-05",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements",
+        "Management improvement plan required"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 27,
+      "bank_name": "Islamic Bank 7",
+      "date": "2027-04-30",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements",
+        "Management improvement plan required"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 33,
+      "bank_name": "Foreign Bank 5",
+      "date": "2024-05-15",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements",
+        "Management improvement plan required"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 33,
+      "bank_name": "Foreign Bank 5",
+      "date": "2025-02-09",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements",
+        "Management improvement plan required"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 33,
+      "bank_name": "Foreign Bank 5",
+      "date": "2025-11-06",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements",
+        "Management improvement plan required"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 33,
+      "bank_name": "Foreign Bank 5",
+      "date": "2026-08-03",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements",
+        "Management improvement plan required"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 33,
+      "bank_name": "Foreign Bank 5",
+      "date": "2027-04-30",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements",
+        "Management improvement plan required"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 2,
+      "bank_name": "Commercial Bank 2",
+      "date": "2024-06-14",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 2,
+      "bank_name": "Commercial Bank 2",
+      "date": "2025-06-09",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 2,
+      "bank_name": "Commercial Bank 2",
+      "date": "2026-06-04",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 18,
+      "bank_name": "Specialized Bank 3",
+      "date": "2024-06-14",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 18,
+      "bank_name": "Specialized Bank 3",
+      "date": "2025-06-09",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 18,
+      "bank_name": "Specialized Bank 3",
+      "date": "2026-06-04",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 21,
+      "bank_name": "Islamic Bank 1",
+      "date": "2024-06-14",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 21,
+      "bank_name": "Islamic Bank 1",
+      "date": "2025-06-09",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 21,
+      "bank_name": "Islamic Bank 1",
+      "date": "2026-06-04",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 40,
+      "bank_name": "State_Owned Bank 2",
+      "date": "2024-06-14",
+      "actions": [
+        "More frequent reporting requirements",
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Contingency funding plan required"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 40,
+      "bank_name": "State_Owned Bank 2",
+      "date": "2025-06-09",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 40,
+      "bank_name": "State_Owned Bank 2",
+      "date": "2026-06-04",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 10,
+      "bank_name": "Commercial Bank 10",
+      "date": "2024-07-14",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 10,
+      "bank_name": "Commercial Bank 10",
+      "date": "2025-07-09",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 10,
+      "bank_name": "Commercial Bank 10",
+      "date": "2026-07-04",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 19,
+      "bank_name": "Specialized Bank 4",
+      "date": "2024-07-14",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 19,
+      "bank_name": "Specialized Bank 4",
+      "date": "2025-07-09",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 19,
+      "bank_name": "Specialized Bank 4",
+      "date": "2026-07-04",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 29,
+      "bank_name": "Foreign Bank 1",
+      "date": "2024-07-14",
+      "actions": [
+        "More frequent reporting requirements",
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Contingency funding plan required"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 29,
+      "bank_name": "Foreign Bank 1",
+      "date": "2025-07-09",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 29,
+      "bank_name": "Foreign Bank 1",
+      "date": "2026-07-04",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 4,
+      "bank_name": "Commercial Bank 4",
+      "date": "2024-09-12",
+      "actions": [
+        "More frequent reporting requirements",
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Contingency funding plan required"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 4,
+      "bank_name": "Commercial Bank 4",
+      "date": "2025-09-07",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 4,
+      "bank_name": "Commercial Bank 4",
+      "date": "2026-09-02",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 14,
+      "bank_name": "Commercial Bank 14",
+      "date": "2024-09-12",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 14,
+      "bank_name": "Commercial Bank 14",
+      "date": "2025-09-07",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 14,
+      "bank_name": "Commercial Bank 14",
+      "date": "2026-09-02",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 16,
+      "bank_name": "Specialized Bank 1",
+      "date": "2024-09-12",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 16,
+      "bank_name": "Specialized Bank 1",
+      "date": "2025-09-07",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 16,
+      "bank_name": "Specialized Bank 1",
+      "date": "2026-09-02",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 28,
+      "bank_name": "Islamic Bank 8",
+      "date": "2024-09-12",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements",
+        "Management improvement plan required"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 28,
+      "bank_name": "Islamic Bank 8",
+      "date": "2025-09-07",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements",
+        "Management improvement plan required"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 28,
+      "bank_name": "Islamic Bank 8",
+      "date": "2026-09-02",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements",
+        "Management improvement plan required"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 30,
+      "bank_name": "Foreign Bank 2",
+      "date": "2024-09-12",
+      "actions": [
+        "More frequent reporting requirements",
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Contingency funding plan required"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 30,
+      "bank_name": "Foreign Bank 2",
+      "date": "2025-09-07",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 30,
+      "bank_name": "Foreign Bank 2",
+      "date": "2026-09-02",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 34,
+      "bank_name": "Foreign Bank 6",
+      "date": "2024-09-12",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 34,
+      "bank_name": "Foreign Bank 6",
+      "date": "2025-09-07",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 34,
+      "bank_name": "Foreign Bank 6",
+      "date": "2026-09-02",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 38,
+      "bank_name": "Development Bank 3",
+      "date": "2024-09-12",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 38,
+      "bank_name": "Development Bank 3",
+      "date": "2025-09-07",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 38,
+      "bank_name": "Development Bank 3",
+      "date": "2026-09-02",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 39,
+      "bank_name": "State_Owned Bank 1",
+      "date": "2024-09-12",
+      "actions": [
+        "More frequent reporting requirements",
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Contingency funding plan required"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 39,
+      "bank_name": "State_Owned Bank 1",
+      "date": "2025-09-07",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 39,
+      "bank_name": "State_Owned Bank 1",
+      "date": "2026-09-02",
+      "actions": [
+        "More frequent reporting requirements",
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Contingency funding plan required"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 23,
+      "bank_name": "Islamic Bank 3",
+      "date": "2024-10-12",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 23,
+      "bank_name": "Islamic Bank 3",
+      "date": "2025-07-09",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 23,
+      "bank_name": "Islamic Bank 3",
+      "date": "2026-04-05",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 23,
+      "bank_name": "Islamic Bank 3",
+      "date": "2026-12-31",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 32,
+      "bank_name": "Foreign Bank 4",
+      "date": "2024-10-12",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 32,
+      "bank_name": "Foreign Bank 4",
+      "date": "2025-07-09",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 32,
+      "bank_name": "Foreign Bank 4",
+      "date": "2026-04-05",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 32,
+      "bank_name": "Foreign Bank 4",
+      "date": "2026-12-31",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 25,
+      "bank_name": "Islamic Bank 5",
+      "date": "2024-11-11",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 25,
+      "bank_name": "Islamic Bank 5",
+      "date": "2025-11-06",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 25,
+      "bank_name": "Islamic Bank 5",
+      "date": "2026-11-01",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 35,
+      "bank_name": "Foreign Bank 7",
+      "date": "2024-11-11",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 35,
+      "bank_name": "Foreign Bank 7",
+      "date": "2025-11-06",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 35,
+      "bank_name": "Foreign Bank 7",
+      "date": "2026-11-01",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 3,
+      "bank_name": "Commercial Bank 3",
+      "date": "2024-12-11",
+      "actions": [
+        "More frequent reporting requirements",
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Contingency funding plan required"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 3,
+      "bank_name": "Commercial Bank 3",
+      "date": "2025-09-07",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 3,
+      "bank_name": "Commercial Bank 3",
+      "date": "2026-06-04",
+      "actions": [
+        "More frequent reporting requirements",
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Contingency funding plan required"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 3,
+      "bank_name": "Commercial Bank 3",
+      "date": "2027-03-01",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 7,
+      "bank_name": "Commercial Bank 7",
+      "date": "2024-12-11",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements",
+        "Management improvement plan required"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 7,
+      "bank_name": "Commercial Bank 7",
+      "date": "2025-12-06",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements",
+        "Management improvement plan required"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 7,
+      "bank_name": "Commercial Bank 7",
+      "date": "2026-12-01",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements",
+        "Management improvement plan required"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 8,
+      "bank_name": "Commercial Bank 8",
+      "date": "2024-12-11",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 8,
+      "bank_name": "Commercial Bank 8",
+      "date": "2025-09-07",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 8,
+      "bank_name": "Commercial Bank 8",
+      "date": "2026-06-04",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 8,
+      "bank_name": "Commercial Bank 8",
+      "date": "2027-03-01",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 12,
+      "bank_name": "Commercial Bank 12",
+      "date": "2024-12-11",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 12,
+      "bank_name": "Commercial Bank 12",
+      "date": "2025-12-06",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 12,
+      "bank_name": "Commercial Bank 12",
+      "date": "2026-12-01",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 24,
+      "bank_name": "Islamic Bank 4",
+      "date": "2024-12-11",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 24,
+      "bank_name": "Islamic Bank 4",
+      "date": "2025-12-06",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 24,
+      "bank_name": "Islamic Bank 4",
+      "date": "2026-12-01",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 36,
+      "bank_name": "Development Bank 1",
+      "date": "2024-12-11",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 36,
+      "bank_name": "Development Bank 1",
+      "date": "2025-09-07",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 36,
+      "bank_name": "Development Bank 1",
+      "date": "2026-06-04",
+      "actions": [
+        "More frequent reporting requirements",
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Contingency funding plan required"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 36,
+      "bank_name": "Development Bank 1",
+      "date": "2027-03-01",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 13,
+      "bank_name": "Commercial Bank 13",
+      "date": "2025-01-10",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 13,
+      "bank_name": "Commercial Bank 13",
+      "date": "2025-10-07",
+      "actions": [
+        "More frequent reporting requirements",
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Contingency funding plan required"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 13,
+      "bank_name": "Commercial Bank 13",
+      "date": "2026-07-04",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 13,
+      "bank_name": "Commercial Bank 13",
+      "date": "2027-03-31",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 26,
+      "bank_name": "Islamic Bank 6",
+      "date": "2025-01-10",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements",
+        "Management improvement plan required"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 26,
+      "bank_name": "Islamic Bank 6",
+      "date": "2026-01-05",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements",
+        "Management improvement plan required"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 26,
+      "bank_name": "Islamic Bank 6",
+      "date": "2026-12-31",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements",
+        "Management improvement plan required"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 5,
+      "bank_name": "Commercial Bank 5",
+      "date": "2025-02-09",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 5,
+      "bank_name": "Commercial Bank 5",
+      "date": "2026-02-04",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 5,
+      "bank_name": "Commercial Bank 5",
+      "date": "2027-01-30",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 1,
+      "bank_name": "Commercial Bank 1",
+      "date": "2025-04-10",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 1,
+      "bank_name": "Commercial Bank 1",
+      "date": "2026-04-05",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 1,
+      "bank_name": "Commercial Bank 1",
+      "date": "2027-03-31",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 9,
+      "bank_name": "Commercial Bank 9",
+      "date": "2025-04-10",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements",
+        "Management improvement plan required"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 9,
+      "bank_name": "Commercial Bank 9",
+      "date": "2026-04-05",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements",
+        "Management improvement plan required"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 9,
+      "bank_name": "Commercial Bank 9",
+      "date": "2027-03-31",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements",
+        "Management improvement plan required"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 11,
+      "bank_name": "Commercial Bank 11",
+      "date": "2025-04-10",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 11,
+      "bank_name": "Commercial Bank 11",
+      "date": "2026-04-05",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 11,
+      "bank_name": "Commercial Bank 11",
+      "date": "2027-03-31",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 22,
+      "bank_name": "Islamic Bank 2",
+      "date": "2025-04-10",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 22,
+      "bank_name": "Islamic Bank 2",
+      "date": "2026-04-05",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 22,
+      "bank_name": "Islamic Bank 2",
+      "date": "2027-03-31",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 31,
+      "bank_name": "Foreign Bank 3",
+      "date": "2025-04-10",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 31,
+      "bank_name": "Foreign Bank 3",
+      "date": "2026-04-05",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 31,
+      "bank_name": "Foreign Bank 3",
+      "date": "2027-03-31",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 37,
+      "bank_name": "Development Bank 2",
+      "date": "2025-04-10",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 37,
+      "bank_name": "Development Bank 2",
+      "date": "2026-04-05",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    },
+    {
+      "bank_id": 37,
+      "bank_name": "Development Bank 2",
+      "date": "2027-03-31",
+      "actions": [
+        "Memorandum of Understanding",
+        "Liquidity management improvement required",
+        "Capital restoration plan required",
+        "Contingency funding plan required",
+        "More frequent reporting requirements"
+      ],
+      "composite_rating": 3
+    }
+  ]
+}
